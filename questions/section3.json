@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "type": "text",
+    "question": "Taiwan Taoyuan International Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "TPE",
+    "explanation": "Taiwan Taoyuan International Airport（台北桃園国際空港）のIATAコードはTPEです。"
+  },
+  {
+    "id": 2,
+    "type": "text",
+    "question": "Hong Kong International Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "HKG",
+    "explanation": "Hong Kong International Airport（香港国際空港）のIATAコードはHKGです。"
+  },
+  {
+    "id": 3,
+    "type": "text",
+    "question": "Noi Bai International Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "HAN",
+    "explanation": "Noi Bai International Airport（ハノイ・ノイバイ国際空港）のIATAコードはHANです。"
+  },
+  {
+    "id": 4,
+    "type": "text",
+    "question": "Tan Son Nhat International Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "SGN",
+    "explanation": "Tan Son Nhat International Airport（ホーチミン・タンソンニャット国際空港）のIATAコードはSGNです。"
+  },
+  {
+    "id": 5,
+    "type": "text",
+    "question": "Suvarnabhumi Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "BKK",
+    "explanation": "Suvarnabhumi Airport（バンコク・スワンナプーム国際空港）のIATAコードはBKKです。"
+  },
+  {
+    "id": 6,
+    "type": "text",
+    "question": "Don Mueang International Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "DMK",
+    "explanation": "Don Mueang International Airport（バンコク・ドンムアン国際空港）のIATAコードはDMKです。"
+  },
+  {
+    "id": 7,
+    "type": "text",
+    "question": "Phuket International Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "HKT",
+    "explanation": "Phuket International Airport（プーケット国際空港）のIATAコードはHKTです。"
+  },
+  {
+    "id": 8,
+    "type": "text",
+    "question": "Phnom Penh International Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "PNH",
+    "explanation": "Phnom Penh International Airport（プノンペン国際空港）のIATAコードはPNHです。"
+  },
+  {
+    "id": 9,
+    "type": "text",
+    "question": "Brunei International Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "BWN",
+    "explanation": "Brunei International Airport（ブルネイ国際空港）のIATAコードはBWNです。"
+  },
+  {
+    "id": 10,
+    "type": "text",
+    "question": "Mactan–Cebu International Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "CEB",
+    "explanation": "Mactan–Cebu International Airport（マクタン・セブ国際空港）のIATAコードはCEBです。"
+  },
+  {
+    "id": 11,
+    "type": "text",
+    "question": "Ninoy Aquino International Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "MNL",
+    "explanation": "Ninoy Aquino International Airport（マニラ・ニノイアキノ国際空港）のIATAコードはMNLです。"
+  },
+  {
+    "id": 12,
+    "type": "text",
+    "question": "Soekarno–Hatta International Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "CGK",
+    "explanation": "Soekarno–Hatta International Airport（ジャカルタ・スカルノハッタ国際空港）のIATAコードはCGKです。"
+  },
+  {
+    "id": 13,
+    "type": "text",
+    "question": "Ngurah Rai International Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "DPS",
+    "explanation": "Ngurah Rai International Airport（バリ・ングラライ国際空港）のIATAコードはDPSです。"
+  },
+  {
+    "id": 14,
+    "type": "text",
+    "question": "Antonio B. Won Pat International Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "GUM",
+    "explanation": "Antonio B. Won Pat International Airport（グアム国際空港）のIATAコードはGUMです。"
+  },
+  {
+    "id": 15,
+    "type": "text",
+    "question": "Saipan International Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "SPN",
+    "explanation": "Saipan International Airport（サイパン国際空港）のIATAコードはSPNです。"
+  },
+  {
+    "id": 16,
+    "type": "text",
+    "question": "Kuala Lumpur International Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "KUL",
+    "explanation": "Kuala Lumpur International Airport（クアラルンプール国際空港）のIATAコードはKULです。"
+  },
+  {
+    "id": 17,
+    "type": "text",
+    "question": "Changi Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "SIN",
+    "explanation": "Changi Airport（シンガポール・チャンギ国際空港）のIATAコードはSINです。"
+  }
+]

@@ -1,11 +1,212 @@
 [
   {
     "id": 1,
-    "type": "multiple_choice",
-    "question": "客室内で酸素マスクが自動的に落ちるのは機内気圧がどの高度相当以下になった時？",
-    "choices": ["約8000ft", "約14000ft", "約20000ft", "約30000ft"],
-    "answer": "約14000ft",
-    "explanation": "機内気圧が14,000ft以下になると酸素マスクが自動的に降下する。",
-    "image": "images/oxygen_mask.jpg"
+    "type": "text",
+    "question": "新千歳空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "CTS",
+    "explanation": "新千歳空港のIATAコードはCTSです。"
+  },
+  {
+    "id": 2,
+    "type": "text",
+    "question": "旭川空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "AKJ",
+    "explanation": "旭川空港のIATAコードはAKJです。"
+  },
+  {
+    "id": 3,
+    "type": "text",
+    "question": "函館空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "HKD",
+    "explanation": "函館空港のIATAコードはHKDです。"
+  },
+  {
+    "id": 4,
+    "type": "text",
+    "question": "青森空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "AOJ",
+    "explanation": "青森空港のIATAコードはAOJです。"
+  },
+  {
+    "id": 5,
+    "type": "text",
+    "question": "仙台空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "SDJ",
+    "explanation": "仙台空港のIATAコードはSDJです。"
+  },
+  {
+    "id": 6,
+    "type": "text",
+    "question": "東京（羽田）空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "HND",
+    "explanation": "東京国際空港（羽田）のIATAコードはHNDです。"
+  },
+  {
+    "id": 7,
+    "type": "text",
+    "question": "成田空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "NRT",
+    "explanation": "成田国際空港のIATAコードはNRTです。"
+  },
+  {
+    "id": 8,
+    "type": "text",
+    "question": "中部国際空港（セントレア）の3レターコードは？(全て大文字で答えよ)",
+    "answer": "NGO",
+    "explanation": "中部国際空港のIATAコードはNGOです。"
+  },
+  {
+    "id": 9,
+    "type": "text",
+    "question": "関西国際空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "KIX",
+    "explanation": "関西国際空港のIATAコードはKIXです。"
+  },
+  {
+    "id": 10,
+    "type": "text",
+    "question": "神戸空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "UKB",
+    "explanation": "神戸空港のIATAコードはUKBです。"
+  },
+  {
+    "id": 11,
+    "type": "text",
+    "question": "高松空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "TAK",
+    "explanation": "高松空港のIATAコードはTAKです。"
+  },
+  {
+    "id": 12,
+    "type": "text",
+    "question": "松山空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "MYJ",
+    "explanation": "松山空港のIATAコードはMYJです。"
+  },
+  {
+    "id": 13,
+    "type": "text",
+    "question": "高知空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "KCZ",
+    "explanation": "高知竜馬空港のIATAコードはKCZです。"
+  },
+  {
+    "id": 14,
+    "type": "text",
+    "question": "静岡空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "FSZ",
+    "explanation": "静岡空港のIATAコードはFSZです。"
+  },
+  {
+    "id": 15,
+    "type": "text",
+    "question": "富山空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "TOY",
+    "explanation": "富山きときと空港のIATAコードはTOYです。"
+  },
+  {
+    "id": 16,
+    "type": "text",
+    "question": "小松空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "KMQ",
+    "explanation": "小松空港のIATAコードはKMQです。"
+  },
+  {
+    "id": 17,
+    "type": "text",
+    "question": "福島空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "FKS",
+    "explanation": "福島空港のIATAコードはFKSです。"
+  },
+  {
+    "id": 18,
+    "type": "text",
+    "question": "新潟空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "KIJ",
+    "explanation": "新潟空港のIATAコードはKIJです。"
+  },
+  {
+    "id": 19,
+    "type": "text",
+    "question": "茨城空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "IBR",
+    "explanation": "茨城空港のIATAコードはIBRです。"
+  },
+  {
+    "id": 20,
+    "type": "text",
+    "question": "広島空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "HIJ",
+    "explanation": "広島空港のIATAコードはHIJです。"
+  },
+  {
+    "id": 21,
+    "type": "text",
+    "question": "岡山空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "OKJ",
+    "explanation": "岡山空港のIATAコードはOKJです。"
+  },
+  {
+    "id": 22,
+    "type": "text",
+    "question": "北九州空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "KKJ",
+    "explanation": "北九州空港のIATAコードはKKJです。"
+  },
+  {
+    "id": 23,
+    "type": "text",
+    "question": "佐賀空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "HSG",
+    "explanation": "佐賀空港のIATAコードはHSGです。"
+  },
+  {
+    "id": 24,
+    "type": "text",
+    "question": "長崎空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "NGS",
+    "explanation": "長崎空港のIATAコードはNGSです。"
+  },
+  {
+    "id": 25,
+    "type": "text",
+    "question": "熊本空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "KMJ",
+    "explanation": "熊本空港のIATAコードはKMJです。"
+  },
+  {
+    "id": 26,
+    "type": "text",
+    "question": "大分空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "OIT",
+    "explanation": "大分空港のIATAコードはOITです。"
+  },
+  {
+    "id": 27,
+    "type": "text",
+    "question": "宮崎空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "KMI",
+    "explanation": "宮崎空港のIATAコードはKMIです。"
+  },
+  {
+    "id": 28,
+    "type": "text",
+    "question": "鹿児島空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "KOJ",
+    "explanation": "鹿児島空港のIATAコードはKOJです。"
+  },
+  {
+    "id": 29,
+    "type": "text",
+    "question": "那覇空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "OKA",
+    "explanation": "那覇空港のIATAコードはOKAです。"
+  },
+  {
+    "id": 30,
+    "type": "text",
+    "question": "宇部空港の3レターコードは？(全て大文字で答えよ)",
+    "answer": "UBJ",
+    "explanation": "宇部空港のIATAコードはUBJです。"
   }
 ]

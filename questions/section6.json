@@ -1,0 +1,79 @@
+[
+  {
+    "id": 1,
+    "type": "text",
+    "question": "Abu Dhabi International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "AUH",
+    "explanation": "Abu Dhabi International（アブダビ国際空港）のIATAコードは AUH です。"
+  },
+  {
+    "id": 2,
+    "type": "text",
+    "question": "Dubai International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "DXB",
+    "explanation": "Dubai International（ドバイ国際空港）のIATAコードは DXB です。"
+  },
+  {
+    "id": 3,
+    "type": "text",
+    "question": "New Doha International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "DOH",
+    "explanation": "New Doha International（ドーハ国際空港）のIATAコードは DOH です。"
+  },
+  {
+    "id": 4,
+    "type": "text",
+    "question": "Atatürk の3レターコードは？(全て大文字で答えよ)",
+    "answer": "IST",
+    "explanation": "Atatürk（イスタンブール・アタテュルク国際空港）のIATAコードは IST です。"
+  },
+  {
+    "id": 5,
+    "type": "text",
+    "question": "Kuwait International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "KWI",
+    "explanation": "Kuwait International（クウェート国際空港）のIATAコードは KWI です。"
+  },
+  {
+    "id": 6,
+    "type": "text",
+    "question": "Ben Gurion の3レターコードは？(全て大文字で答えよ)",
+    "answer": "TLV",
+    "explanation": "Ben Gurion（テルアビブ・ベン・グリオン国際空港）のIATAコードは TLV です。"
+  },
+  {
+    "id": 7,
+    "type": "text",
+    "question": "Cairo International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "CAI",
+    "explanation": "Cairo International（カイロ国際空港）のIATAコードは CAI です。"
+  },
+  {
+    "id": 8,
+    "type": "text",
+    "question": "Tullamarine の3レターコードは？(全て大文字で答えよ)",
+    "answer": "MEL",
+    "explanation": "Tullamarine（メルボルン・タラマリン空港）のIATAコードは MEL です。"
+  },
+  {
+    "id": 9,
+    "type": "text",
+    "question": "Kingsford Smith の3レターコードは？(全て大文字で答えよ)",
+    "answer": "SYD",
+    "explanation": "Kingsford Smith（シドニー国際空港）のIATAコードは SYD です。"
+  },
+  {
+    "id": 10,
+    "type": "text",
+    "question": "Brisbane International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "BNE",
+    "explanation": "Brisbane International（ブリスベン国際空港）のIATAコードは BNE です。"
+  },
+  {
+    "id": 11,
+    "type": "text",
+    "question": "Cairns の3レターコードは？(全て大文字で答えよ)",
+    "answer": "CNS",
+    "explanation": "Cairns（ケアンズ空港）のIATAコードは CNS です。"
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "id": 1,
+    "type": "text",
+    "question": "Ted Stevens Anchorage International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "ANC",
+    "explanation": "Ted Stevens Anchorage International（テッド・スティーブンス・アンカレッジ国際空港）のIATAコードは ANC です。"
+  },
+  {
+    "id": 2,
+    "type": "text",
+    "question": "Hartsfield–Jackson International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "ATL",
+    "explanation": "Hartsfield–Jackson International（ハーツフィールド–ジャクソン国際空港）のIATAコードは ATL です。"
+  },
+  {
+    "id": 3,
+    "type": "text",
+    "question": "Logan International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "BOS",
+    "explanation": "Logan International（ローガン国際空港）のIATAコードは BOS です。"
+  },
+  {
+    "id": 4,
+    "type": "text",
+    "question": "O'Hare Int'l の3レターコードは？(全て大文字で答えよ)",
+    "answer": "ORD",
+    "explanation": "O'Hare Int'l（オヘア国際空港）のIATAコードは ORD です。"
+  },
+  {
+    "id": 5,
+    "type": "text",
+    "question": "Fort Worth の3レターコードは？(全て大文字で答えよ)",
+    "answer": "DFW",
+    "explanation": "Fort Worth（ダラス・フォートワース国際空港）のIATAコードは DFW です。"
+  },
+  {
+    "id": 6,
+    "type": "text",
+    "question": "Detroit Metropolitan Wayne County の3レターコードは？(全て大文字で答えよ)",
+    "answer": "DTW",
+    "explanation": "Detroit Metropolitan Wayne County（デトロイト・メトロポリタン・ウェイン郡空港）のIATAコードは DTW です。"
+  },
+  {
+    "id": 7,
+    "type": "text",
+    "question": "George Bush Intercontinental の3レターコードは？(全て大文字で答えよ)",
+    "answer": "IAH",
+    "explanation": "George Bush Intercontinental（ジョージ・ブッシュ・インターコンチネンタル空港）のIATAコードは IAH です。"
+  },
+  {
+    "id": 8,
+    "type": "text",
+    "question": "McCarran International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "LAS",
+    "explanation": "McCarran International（マッカラン国際空港）のIATAコードは LAS です。"
+  },
+  {
+    "id": 9,
+    "type": "text",
+    "question": "Los Angeles International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "LAX",
+    "explanation": "Los Angeles International（ロサンゼルス国際空港）のIATAコードは LAX です。"
+  },
+  {
+    "id": 10,
+    "type": "text",
+    "question": "Memphis International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "MEM",
+    "explanation": "Memphis International（メンフィス国際空港）のIATAコードは MEM です。"
+  },
+  {
+    "id": 11,
+    "type": "text",
+    "question": "Miami International Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "MIA",
+    "explanation": "Miami International Airport（マイアミ国際空港）のIATAコードは MIA です。"
+  },
+  {
+    "id": 12,
+    "type": "text",
+    "question": "St. Paul の3レターコードは？(全て大文字で答えよ)",
+    "answer": "MSP",
+    "explanation": "St. Paul（ミネアポリス–セントポール国際空港）のIATAコードは MSP です。"
+  },
+  {
+    "id": 13,
+    "type": "text",
+    "question": "John F. Kennedy の3レターコードは？(全て大文字で答えよ)",
+    "answer": "JFK",
+    "explanation": "John F. Kennedy（ジョン・F・ケネディ国際空港）のIATAコードは JFK です。"
+  },
+  {
+    "id": 14,
+    "type": "text",
+    "question": "LaGuardia の3レターコードは？(全て大文字で答えよ)",
+    "answer": "LGA",
+    "explanation": "LaGuardia（ラガーディア空港）のIATAコードは LGA です。"
+  },
+  {
+    "id": 15,
+    "type": "text",
+    "question": "Newark Liberty International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "EWR",
+    "explanation": "Newark Liberty International（ニューアーク・リバティー国際空港）のIATAコードは EWR です。"
+  },
+  {
+    "id": 16,
+    "type": "text",
+    "question": "Lindbergh Field San Diego の3レターコードは？(全て大文字で答えよ)",
+    "answer": "SAN",
+    "explanation": "Lindbergh Field San Diego（サンディエゴ国際空港）のIATAコードは SAN です。"
+  },
+  {
+    "id": 17,
+    "type": "text",
+    "question": "San Francisco International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "SFO",
+    "explanation": "San Francisco International（サンフランシスコ国際空港）のIATAコードは SFO です。"
+  },
+  {
+    "id": 18,
+    "type": "text",
+    "question": "Seattle/Tacoma International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "SEA",
+    "explanation": "Seattle/Tacoma International（シアトル–タコマ国際空港）のIATAコードは SEA です。"
+  },
+  {
+    "id": 19,
+    "type": "text",
+    "question": "Portland International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "PDX",
+    "explanation": "Portland International（ポートランド国際空港）のIATAコードは PDX です。"
+  },
+  {
+    "id": 20,
+    "type": "text",
+    "question": "Washington Dulles International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "IAD",
+    "explanation": "Washington Dulles International（ワシントン・ダレス国際空港）のIATAコードは IAD です。"
+  },
+  {
+    "id": 21,
+    "type": "text",
+    "question": "Denver International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "DEN",
+    "explanation": "Denver International（デンバー国際空港）のIATAコードは DEN です。"
+  },
+  {
+    "id": 22,
+    "type": "text",
+    "question": "Honolulu Intl の3レターコードは？(全て大文字で答えよ)",
+    "answer": "HNL",
+    "explanation": "Honolulu Intl（ホノルル国際空港）のIATAコードは HNL です。"
+  },
+  {
+    "id": 23,
+    "type": "text",
+    "question": "Vancouver International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "YVR",
+    "explanation": "Vancouver International（バンクーバー国際空港）のIATAコードは YVR です。"
+  },
+  {
+    "id": 24,
+    "type": "text",
+    "question": "Calgary International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "YYC",
+    "explanation": "Calgary International（カルガリー国際空港）のIATAコードは YYC です。"
+  },
+  {
+    "id": 25,
+    "type": "text",
+    "question": "Toronto Pearson International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "YYZ",
+    "explanation": "Toronto Pearson International（トロント・ピアソン国際空港）のIATAコードは YYZ です。"
+  },
+  {
+    "id": 26,
+    "type": "text",
+    "question": "Montréal–Pierre Elliott Trudeau International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "YUL",
+    "explanation": "Montréal–Pierre Elliott Trudeau International（モントリオール＝ピエール・エリオット・トルドー国際空港）のIATAコードは YUL です。"
+  },
+  {
+    "id": 27,
+    "type": "text",
+    "question": "Mexico City International の3レターコードは？(全て大文字で答えよ)",
+    "answer": "MEX",
+    "explanation": "Mexico City International（メキシコシティ国際空港）のIATAコードは MEX です。"
+  }
+]

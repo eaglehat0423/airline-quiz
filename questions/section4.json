@@ -1,0 +1,163 @@
+[
+  {
+    "id": 1,
+    "type": "text",
+    "question": "Zurich Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "ZRH",
+    "explanation": "Zurich Airport（チューリッヒ空港）のIATAコードはZRHです。"
+  },
+  {
+    "id": 2,
+    "type": "text",
+    "question": "Geneva–Cointrin Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "GVA",
+    "explanation": "Geneva–Cointrin Airport（ジュネーヴ＝コアントラン空港）のIATAコードはGVAです。"
+  },
+  {
+    "id": 3,
+    "type": "text",
+    "question": "Helsinki–Vantaa Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "HEL",
+    "explanation": "Helsinki–Vantaa Airport（ヘルシンキ＝ヴァンター国際空港）のIATAコードはHELです。"
+  },
+  {
+    "id": 4,
+    "type": "text",
+    "question": "Arlanda Int'l Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "ARN",
+    "explanation": "Stockholm Arlanda Int'l Airport（ストックホルム・アーランダ空港）のIATAコードはARNです。"
+  },
+  {
+    "id": 5,
+    "type": "text",
+    "question": "Oslo Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "OSL",
+    "explanation": "Oslo Airport（オスロ空港）のIATAコードはOSLです。"
+  },
+  {
+    "id": 6,
+    "type": "text",
+    "question": "Copenhagen Airport–Kastrup の3レターコードは？(全て大文字で答えよ)",
+    "answer": "CPH",
+    "explanation": "Copenhagen Airport–Kastrup（コペンハーゲン空港–カストロップ）のIATAコードはCPHです。"
+  },
+  {
+    "id": 7,
+    "type": "text",
+    "question": "Dublin Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "DUB",
+    "explanation": "Dublin Airport（ダブリン空港）のIATAコードはDUBです。"
+  },
+  {
+    "id": 8,
+    "type": "text",
+    "question": "Heathrow Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "LHR",
+    "explanation": "London Heathrow Airport（ロンドン・ヒースロー空港）のIATAコードはLHRです。"
+  },
+  {
+    "id": 9,
+    "type": "text",
+    "question": "Schiphol Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "AMS",
+    "explanation": "Amsterdam Schiphol Airport（アムステルダム・スキポール空港）のIATAコードはAMSです。"
+  },
+  {
+    "id": 10,
+    "type": "text",
+    "question": "Tegel Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "TXL",
+    "explanation": "Berlin Tegel Airport（ベルリン・テーゲル空港）のIATAコードはTXLです。"
+  },
+  {
+    "id": 11,
+    "type": "text",
+    "question": "Franz Josef Strauss Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "MUC",
+    "explanation": "Munich Franz Josef Strauss Airport（ミュンヘン・フランツ・ヨーゼフ・シュトラウス空港）のIATAコードはMUCです。"
+  },
+  {
+    "id": 12,
+    "type": "text",
+    "question": "Rhein-Main Int'l Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "FRA",
+    "explanation": "Frankfurt Rhein-Main Int'l Airport（フランクフルト空港）のIATAコードはFRAです。"
+  },
+  {
+    "id": 13,
+    "type": "text",
+    "question": "Warsaw Chopin Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "WAW",
+    "explanation": "Warsaw Chopin Airport（ワルシャワ・ショパン空港）のIATAコードはWAWです。"
+  },
+  {
+    "id": 14,
+    "type": "text",
+    "question": "Schwechat Int'l Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "VIE",
+    "explanation": "Vienna Schwechat Int'l Airport（ウィーン空港）のIATAコードはVIEです。"
+  },
+  {
+    "id": 15,
+    "type": "text",
+    "question": "Charles de Gaulle Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "CDG",
+    "explanation": "Charles de Gaulle Airport（シャルル・ド・ゴール空港）のIATAコードはCDGです。"
+  },
+  {
+    "id": 16,
+    "type": "text",
+    "question": "Côte d'Azur Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "NCE",
+    "explanation": "Nice Côte d'Azur Airport（ニース・コートダジュール空港）のIATAコードはNCEです。"
+  },
+  {
+    "id": 17,
+    "type": "text",
+    "question": "Toulouse–Blagnac Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "TLS",
+    "explanation": "Toulouse–Blagnac Airport（トゥールーズ・ブラニャック空港）のIATAコードはTLSです。"
+  },
+  {
+    "id": 18,
+    "type": "text",
+    "question": "Milan Malpensa Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "MXP",
+    "explanation": "Milan Malpensa Airport（ミラノ・マルペンサ空港）のIATAコードはMXPです。"
+  },
+  {
+    "id": 19,
+    "type": "text",
+    "question": "Fiumicino Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "FCO",
+    "explanation": "Rome Fiumicino Airport（ローマ・フィウミチーノ空港）のIATAコードはFCOです。"
+  },
+  {
+    "id": 20,
+    "type": "text",
+    "question": "Barajas Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "MAD",
+    "explanation": "Madrid–Barajas Airport（マドリード・バラハス空港）のIATAコードはMADです。"
+  },
+  {
+    "id": 21,
+    "type": "text",
+    "question": "Barcelona–El Prat Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "BCN",
+    "explanation": "Barcelona–El Prat Airport（バルセロナ＝エル・プラット空港）のIATAコードはBCNです。"
+  },
+  {
+    "id": 22,
+    "type": "text",
+    "question": "Portela Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "LIS",
+    "explanation": "Lisbon Portela Airport（リスボン＝ポルテラ空港）のIATAコードはLISです。"
+  },
+  {
+    "id": 23,
+    "type": "text",
+    "question": "Eleftherios Venizelos Airport の3レターコードは？(全て大文字で答えよ)",
+    "answer": "ATH",
+    "explanation": "Athens Eleftherios Venizelos Airport（アテネ国際空港）のIATAコードはATHです。"
+  }
+]
