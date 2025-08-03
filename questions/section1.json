@@ -1,104 +1,184 @@
 [
   {
     "id": 1,
-    "type": "multiple_choice",
-    "question": "航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？v航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？",
-    "choices": ["V1", "V2", "V3", "Vref"],
-    "answer": "V2",
-    "explanation": "V2はエンジン故障時でも安全に上昇できる速度を指す。",
-    "image": "images/takeoff_speed.jpg"
+    "type": "text",
+    "question": "AはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "able",
+    "explanation": "Aは'ABLE'です。"
   },
   {
     "id": 2,
     "type": "text",
-    "question": "航空管制で使われる国際共通言語は何ですか？",
-    "answer": "英語",
-    "explanation": "航空管制では世界共通で英語が使用される。",
-    "image": "images/atc.jpg"
+    "question": "BはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "baker",
+    "explanation": "Bは'BAKER'です。"
   },
   {
-    "id": 1,
-    "type": "multiple_choice",
-    "question": "航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？v航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？",
-    "choices": ["V1", "V2", "V3", "Vref"],
-    "answer": "V2",
-    "explanation": "V2はエンジン故障時でも安全に上昇できる速度を指す。",
-    "image": "images/takeoff_speed.jpg"
-  },
-  {
-    "id": 2,
+    "id": 3,
     "type": "text",
-    "question": "航空管制で使われる国際共通言語は何ですか？",
-    "answer": "英語",
-    "explanation": "航空管制では世界共通で英語が使用される。",
-    "image": "images/atc.jpg"
+    "question": "CはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "charlie",
+    "explanation": "Cは'CHARLIE'です。"
   },
   {
-    "id": 1,
-    "type": "multiple_choice",
-    "question": "航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？v航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？",
-    "choices": ["V1", "V2", "V3", "Vref"],
-    "answer": "V2",
-    "explanation": "V2はエンジン故障時でも安全に上昇できる速度を指す。",
-    "image": "images/takeoff_speed.jpg"
-  },
-  {
-    "id": 2,
+    "id": 4,
     "type": "text",
-    "question": "航空管制で使われる国際共通言語は何ですか？",
-    "answer": "英語",
-    "explanation": "航空管制では世界共通で英語が使用される。",
-    "image": "images/atc.jpg"
+    "question": "DはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "delta",
+    "explanation": "Dは'DELTA'です。"
   },
   {
-    "id": 1,
-    "type": "multiple_choice",
-    "question": "航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？v航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？",
-    "choices": ["V1", "V2", "V3", "Vref"],
-    "answer": "V2",
-    "explanation": "V2はエンジン故障時でも安全に上昇できる速度を指す。",
-    "image": "images/takeoff_speed.jpg"
-  },
-  {
-    "id": 2,
+    "id": 5,
     "type": "text",
-    "question": "航空管制で使われる国際共通言語は何ですか？",
-    "answer": "英語",
-    "explanation": "航空管制では世界共通で英語が使用される。",
-    "image": "images/atc.jpg"
+    "question": "EはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "echo",
+    "explanation": "Eは'ECHO'です。"
   },
   {
-    "id": 1,
-    "type": "multiple_choice",
-    "question": "航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？v航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？",
-    "choices": ["V1", "V2", "V3", "Vref"],
-    "answer": "V2",
-    "explanation": "V2はエンジン故障時でも安全に上昇できる速度を指す。",
-    "image": "images/takeoff_speed.jpg"
-  },
-  {
-    "id": 2,
+    "id": 6,
     "type": "text",
-    "question": "航空管制で使われる国際共通言語は何ですか？",
-    "answer": "英語",
-    "explanation": "航空管制では世界共通で英語が使用される。",
-    "image": "images/atc.jpg"
+    "question": "FはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "fox",
+    "explanation": "Fは'FOX'です。"
   },
   {
-    "id": 1,
-    "type": "multiple_choice",
-    "question": "航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？v航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？航空機が離陸する際に必要な速度を何と呼ぶ？",
-    "choices": ["V1", "V2", "V3", "Vref"],
-    "answer": "V2",
-    "explanation": "V2はエンジン故障時でも安全に上昇できる速度を指す。",
-    "image": "images/takeoff_speed.jpg"
-  },
-  {
-    "id": 2,
+    "id": 7,
     "type": "text",
-    "question": "航空管制で使われる国際共通言語は何ですか？",
-    "answer": "英語",
-    "explanation": "航空管制では世界共通で英語が使用される。",
-    "image": "images/atc.jpg"
+    "question": "GはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "george",
+    "explanation": "Gは'GEORGE'です。"
+  },
+  {
+    "id": 8,
+    "type": "text",
+    "question": "HはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "how",
+    "explanation": "Hは'HOW'です。"
+  },
+  {
+    "id": 9,
+    "type": "text",
+    "question": "IはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "item",
+    "explanation": "Iは'ITEM'です。"
+  },
+  {
+    "id": 10,
+    "type": "text",
+    "question": "JはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "jack",
+    "explanation": "Jは'JACK'です。"
+  },
+  {
+    "id": 11,
+    "type": "text",
+    "question": "KはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "king",
+    "explanation": "Kは'KING'です。"
+  },
+  {
+    "id": 12,
+    "type": "text",
+    "question": "LはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "love",
+    "explanation": "Lは'LOVE'です。"
+  },
+  {
+    "id": 13,
+    "type": "text",
+    "question": "MはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "mike",
+    "explanation": "Mは'MIKE'です。"
+  },
+  {
+    "id": 14,
+    "type": "text",
+    "question": "NはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "nancy",
+    "explanation": "Nは'NANCY'です。"
+  },
+  {
+    "id": 15,
+    "type": "text",
+    "question": "OはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "over",
+    "explanation": "Oは'OVER'です。"
+  },
+  {
+    "id": 16,
+    "type": "text",
+    "question": "PはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "peter",
+    "explanation": "Pは'PETER'です。"
+  },
+  {
+    "id": 17,
+    "type": "text",
+    "question": "QはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "queen",
+    "explanation": "Qは'QUEEN'です。"
+  },
+  {
+    "id": 18,
+    "type": "text",
+    "question": "RはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "roger",
+    "explanation": "Rは'ROGER'です。"
+  },
+  {
+    "id": 19,
+    "type": "text",
+    "question": "SはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "sugar",
+    "explanation": "Sは'SUGAR'です。"
+  },
+  {
+    "id": 20,
+    "type": "text",
+    "question": "TはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "tiger",
+    "explanation": "Tは'Tiger'です。"
+  },
+  {
+    "id": 21,
+    "type": "text",
+    "question": "UはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "uncle",
+    "explanation": "Uは'UNCLE'です。"
+  },
+  {
+    "id": 22,
+    "type": "text",
+    "question": "VはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "victory",
+    "explanation": "Vは'VICTORY'です。"
+  },
+  {
+    "id": 23,
+    "type": "text",
+    "question": "WはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "whisky",
+    "explanation": "Wは'WHISKY'です。"
+  },
+  {
+    "id": 24,
+    "type": "text",
+    "question": "XはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "x-ray",
+    "explanation": "Xは'X-RAY'です。"
+  },
+  {
+    "id": 25,
+    "type": "text",
+    "question": "YはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "york",
+    "explanation": "Yは'YORK'です。"
+  },
+  {
+    "id": 26,
+    "type": "text",
+    "question": "ZはIATAフォネティックコードで何？(全て小文字で答えよ)",
+    "answer": "zebra",
+    "explanation": "Zは'ZEBRA'です。"
   }
 ]
