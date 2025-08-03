@@ -3,6 +3,7 @@ let questions = [];
 let currentIndex = 0;
 let score = 0;
 let selectedQuestionCount = 0;
+let currentSectionName = "";
 
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
@@ -28,35 +29,43 @@ function showSections() {
   sections.forEach((sec) => {
     const btn = document.createElement("button");
     btn.textContent = sec.name;
-    btn.onclick = () => selectQuestionCount(sec.file, sec.name);
+    btn.onclick = () => selectQuestionCount(sec.file, sec.id);
     container.appendChild(btn);
   });
 }
 
-async function selectQuestionCount(filePath, sectionName) {
+async function selectQuestionCount(filePath, sectionId) {
   const res = await fetch(filePath);
   let allQuestions = await res.json();
+
+  // セクション名を保持
+  const sec = sections.find((s) => s.id === sectionId);
+  currentSectionName = sec ? sec.name : "";
 
   document.getElementById("section-container").style.display = "block";
   document.getElementById("quiz-container").style.display = "none";
 
   const container = document.getElementById("section-container");
-  container.innerHTML = `<h2>出題数を選択してください (${sectionName})</h2>`;
+  container.innerHTML = `<h2>出題数を選択してください (${currentSectionName})</h2>`;
 
   [5, 10, allQuestions.length].forEach((num) => {
     if (num <= allQuestions.length) {
       const btn = document.createElement("button");
       btn.textContent =
         num === allQuestions.length ? `全問(${num})` : `${num}問`;
-      btn.onclick = () => startSection(filePath, sectionName, num);
+      btn.onclick = () => startSection(filePath, sectionId, num);
       container.appendChild(btn);
     }
   });
 }
 
-async function startSection(filePath, sectionName, count) {
+async function startSection(filePath, sectionId, count) {
   const res = await fetch(filePath);
   let allQuestions = await res.json();
+
+  // セクション名を保持
+  const sec = sections.find((s) => s.id === sectionId);
+  currentSectionName = sec ? sec.name : "";
 
   questions = shuffleArray(allQuestions).slice(0, count);
 
@@ -67,10 +76,24 @@ async function startSection(filePath, sectionName, count) {
   document.getElementById("section-container").style.display = "none";
   document.getElementById("quiz-container").style.display = "block";
 
-  document.getElementById(
-    "quiz-container"
-  ).innerHTML = `<h3>セクション: ${sectionName}</h3>`;
   showQuestion();
+}
+
+function updateHeader() {
+  const header = document.getElementById("quiz-header");
+  if (!header) return;
+
+  header.innerHTML = `
+    <div class="header-title">${currentSectionName}</div>
+    <div class="progress-text">問題 ${currentIndex + 1} / ${
+    questions.length
+  }</div>
+    <div class="progress-bar">
+      <div class="progress-fill" style="width:${
+        ((currentIndex + 1) / questions.length) * 100
+      }%"></div>
+    </div>
+  `;
 }
 
 function showQuestion() {
@@ -78,6 +101,9 @@ function showQuestion() {
 
   if (currentIndex >= questions.length) {
     container.innerHTML = `
+      <div id="quiz-header" class="sticky-header">
+        <div class="header-title">${currentSectionName}</div>
+      </div>
       <h2>このセクションの問題は終了しました！</h2>
       <p>正解数: ${score} / ${questions.length}</p>
       <button onclick="loadSections()">セクション選択に戻る</button>
@@ -86,33 +112,15 @@ function showQuestion() {
   }
 
   const q = questions[currentIndex];
-  const qBox = document.createElement("div");
-  qBox.className = "question-box";
+  container.innerHTML = `
+    <div id="quiz-header" class="sticky-header"></div>
+    <div class="question-box"></div>
+  `;
 
-  // 進捗バーコンテナ
-  const progressContainer = document.createElement("div");
-  progressContainer.className = "progress-container";
+  updateHeader();
 
-  // 進捗数値
-  const progressText = document.createElement("div");
-  progressText.className = "progress-text";
-  progressText.textContent = `問題 ${currentIndex + 1} / ${questions.length}`;
+  const qBox = container.querySelector(".question-box");
 
-  // 視覚的なバー
-  const progressBar = document.createElement("div");
-  progressBar.className = "progress-bar";
-  const progressFill = document.createElement("div");
-  progressFill.className = "progress-fill";
-  progressFill.style.width = `${
-    ((currentIndex + 1) / questions.length) * 100
-  }%`;
-
-  progressBar.appendChild(progressFill);
-  progressContainer.appendChild(progressText);
-  progressContainer.appendChild(progressBar);
-  qBox.appendChild(progressContainer);
-
-  // 問題文
   const questionTitle = document.createElement("h3");
   questionTitle.textContent = q.question;
   qBox.appendChild(questionTitle);
@@ -142,9 +150,6 @@ function showQuestion() {
     btn.onclick = () => checkAnswer(input.value.trim());
     qBox.appendChild(btn);
   }
-
-  container.innerHTML = `<h3>セクション問題</h3>`;
-  container.appendChild(qBox);
 }
 
 function checkAnswer(userAnswer) {
@@ -180,6 +185,8 @@ function checkAnswer(userAnswer) {
       btn.style.opacity = 0.6;
     }
   });
+
+  updateHeader();
 }
 
 loadSections();
