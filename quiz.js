@@ -50,7 +50,9 @@ async function selectQuestionCount(filePath, sectionId) {
   const container = document.getElementById("section-container");
   container.innerHTML = `<h2>出題数を選択してください (${currentSectionName})</h2>`;
 
-  [5, 10, allQuestions.length].forEach((num) => {
+  const questionOptions = [...Array(Math.floor(allQuestions.length / 10))].map((_, i) => (i+1) * 10)
+  questionOptions.push(allQuestions.length)
+  questionOptions.forEach((num) => {
     if (num <= allQuestions.length) {
       const btn = document.createElement("button");
       btn.textContent =
