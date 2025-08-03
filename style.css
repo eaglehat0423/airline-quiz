@@ -7,41 +7,57 @@
   box-sizing: border-box;
 }
 
-body {
+html, body {
   font-family: 'Segoe UI', 'Roboto', sans-serif;
   background: linear-gradient(135deg, #e0f2ff, #f7f9fc);
   color: #333;
   text-align: center;
-  padding: 0;
-  margin: 0;
   min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ===========================
+   SECTION-SELECT WRAPPER
+=========================== */
+.section-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
+  padding: 10px;
 }
 
 /* ===========================
    CONTAINERS
 =========================== */
+/* セクション選択 */
 #section-container {
   padding: 20px;
   max-width: 500px;
+  width: calc(100% - 20px);
   background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-  width: 90%;
   text-align: center;
   animation: fadeIn 0.4s ease;
+  margin: 0 auto;
 }
 
+/* クイズ画面：中央固定＆スクロール可能 */
 #quiz-container {
-  padding: 20px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 20px);
   max-width: 500px;
-  margin: 90px auto 40px;
   background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-  width: 90%;
+  padding: 80px 20px 20px; /* ヘッダーぶん上部余白を確保 */
+  overflow-y: auto;
+  overscroll-behavior: contain;
 }
 
 /* ===========================
@@ -102,8 +118,10 @@ input[type="text"]:focus {
 .sticky-header {
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: calc(100% - 20px);
+  max-width: 500px;
   background: #ffffff;
   padding: 12px 10px;
   border-bottom: 1px solid #ddd;
@@ -114,7 +132,6 @@ input[type="text"]:focus {
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-/* セクション名 */
 .header-title {
   font-weight: bold;
   font-size: 18px;
@@ -122,14 +139,12 @@ input[type="text"]:focus {
   color: #333;
 }
 
-/* 進捗テキスト */
 .progress-text {
   font-size: 14px;
   margin-bottom: 6px;
   color: #555;
 }
 
-/* 視覚的な進捗バー */
 .progress-bar {
   width: 90%;
   height: 10px;

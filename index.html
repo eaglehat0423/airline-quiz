@@ -7,10 +7,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="center-wrapper">
+  <!-- セクション選択画面（最初だけ表示） -->
+  <div class="section-wrapper">
     <div id="section-container"></div>
-    <div id="quiz-container" style="display:none;"></div>
   </div>
+
+  <!-- クイズ画面（display:none → JSで切り替え） -->
+  <div id="quiz-container" style="display:none;"></div>
 
   <script src="quiz.js"></script>
 </body>
