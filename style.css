@@ -6,15 +6,15 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html, body {
   font-family: 'Segoe UI', 'Roboto', sans-serif;
   background: linear-gradient(135deg, #e0f2ff, #f7f9fc);
   color: #333;
   text-align: center;
-  min-height: 100vh;
-  overflow-x: hidden;
-  overflow-y: hidden;
   height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;  /* 縦スクロールを再度有効に */
 }
 
 /* ===========================
@@ -24,26 +24,31 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  height: 100vh;
   padding: 10px;
 }
 
 /* ===========================
-   CONTAINERS
+   SECTION CONTAINER (SCROLLABLE)
 =========================== */
 #section-container {
   padding: 20px;
-  max-width: 500px;
   width: calc(100% - 20px);
+  max-width: 500px;
+  height: calc(100vh - 40px);
   background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
   text-align: center;
   animation: fadeIn 0.4s ease;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
   margin: 0 auto;
 }
 
-/* クイズ画面：画面中央に固定、高さ制限をかけて内部をスクロール */
+/* ===========================
+   QUIZ CONTAINER (FIXED & SCROLLABLE)
+=========================== */
 #quiz-container {
   position: fixed;
   top: 50%;
@@ -58,8 +63,6 @@ html, body {
   padding: 20px;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  /* セクション選択時のラッパーが効かないように */
-  margin: 0;
   z-index: 10;
 }
 
@@ -82,11 +85,13 @@ button {
   transition: all 0.3s ease;
   box-shadow: 0 4px 12px rgba(0, 122, 255, 0.2);
 }
+
 button:hover:not(:disabled) {
   background: linear-gradient(135deg, #3a8ef6, #00d0ff);
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(0, 122, 255, 0.3);
 }
+
 button:disabled {
   background: #ccc;
   cursor: not-allowed;
@@ -107,6 +112,7 @@ input[type="text"] {
   outline: none;
   transition: border 0.2s ease;
 }
+
 input[type="text"]:focus {
   border-color: #4facfe;
   box-shadow: 0 0 5px rgba(79, 172, 254, 0.3);
@@ -127,17 +133,20 @@ input[type="text"]:focus {
   z-index: 20;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
+
 .header-title {
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 4px;
   color: #333;
 }
+
 .progress-text {
   font-size: 14px;
   margin-bottom: 6px;
   color: #555;
 }
+
 .progress-bar {
   width: 90%;
   height: 10px;
@@ -145,6 +154,7 @@ input[type="text"]:focus {
   border-radius: 5px;
   overflow: hidden;
 }
+
 .progress-fill {
   height: 100%;
   background: linear-gradient(90deg, #4facfe, #00f2fe);
@@ -159,6 +169,7 @@ input[type="text"]:focus {
   margin-top: 20px;
   padding-bottom: 20px;
 }
+
 .question-box img {
   max-width: 90%;
   margin: 12px auto;
@@ -177,10 +188,12 @@ input[type="text"]:focus {
   border-radius: 6px;
   animation: fadeIn 0.3s ease;
 }
+
 .result[style*="green"] {
   background: #e6f8e9;
   color: #2e7d32;
 }
+
 .result[style*="red"] {
   background: #ffeaea;
   color: #d32f2f;
@@ -198,14 +211,17 @@ input[type="text"]:focus {
   text-align: left;
   transition: transform 0.2s ease;
 }
+
 .card:hover {
   transform: translateY(-2px);
 }
+
 .card p {
   margin: 4px 0;
   font-size: 14px;
   line-height: 1.4;
 }
+
 .card strong {
   color: #222;
 }
@@ -222,9 +238,8 @@ input[type="text"]:focus {
    MOBILE RESPONSIVE
 =========================== */
 @media (max-width: 600px) {
-  body {
+  html, body {
     font-size: 14px;
-    padding: 10px;
   }
   button {
     font-size: 15px;
