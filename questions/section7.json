@@ -1,0 +1,954 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "question": "A/C の意味は？",
+    "choices": ["航空機", "航空機通信・連絡・報告システム", "確認応答", "助言"],
+    "answer": "航空機",
+    "explanation": "A/C は「航空機」の略です。"
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "question": "ACARS の意味は？",
+    "choices": ["航空機通信・連絡・報告システム", "確認応答", "助言", "代理人"],
+    "answer": "航空機通信・連絡・報告システム",
+    "explanation": "ACARS は「航空機通信・連絡・報告システム」の略です。"
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "question": "ACK の意味は？",
+    "choices": ["確認応答", "助言", "代理人", "通路席"],
+    "answer": "確認応答",
+    "explanation": "ACK は「確認応答」の略です。"
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "question": "ADV の意味は？",
+    "choices": ["助言", "代理人", "通路席", "航空機地上状態"],
+    "answer": "助言",
+    "explanation": "ADV は「助言」の略です。"
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "question": "AGT の意味は？",
+    "choices": ["代理人", "通路席", "航空機地上状態", "補助動力装置"],
+    "answer": "代理人",
+    "explanation": "AGT は「代理人」の略です。"
+  },
+  {
+    "id": 6,
+    "type": "multiple_choice",
+    "question": "Aisle の意味は？",
+    "choices": ["通路席", "航空機地上状態", "補助動力装置", "空港施設使用料"],
+    "answer": "通路席",
+    "explanation": "Aisle は「通路席」のことです。"
+  },
+  {
+    "id": 7,
+    "type": "multiple_choice",
+    "question": "AOG の意味は？",
+    "choices": ["航空機地上状態", "補助動力装置", "空港施設使用料", "到着"],
+    "answer": "航空機地上状態",
+    "explanation": "AOG は「航空機地上状態」の略です。"
+  },
+  {
+    "id": 8,
+    "type": "multiple_choice",
+    "question": "APU の意味は？",
+    "choices": ["補助動力装置", "空港施設使用料", "到着", "できるだけ早く"],
+    "answer": "補助動力装置",
+    "explanation": "APU は「補助動力装置」の略です。"
+  },
+  {
+    "id": 9,
+    "type": "multiple_choice",
+    "question": "Airport Tax の意味は？",
+    "choices": ["空港施設使用料", "到着", "できるだけ早く", "割り当て"],
+    "answer": "空港施設使用料",
+    "explanation": "Airport Tax は「空港施設使用料」のことです。"
+  },
+  {
+    "id": 10,
+    "type": "multiple_choice",
+    "question": "ARR の意味は？",
+    "choices": ["到着", "できるだけ早く", "割り当て", "実到着時間"],
+    "answer": "到着",
+    "explanation": "ARR は「到着（Arrival）」の略です。"
+  },
+  {
+    "id": 11,
+    "type": "multiple_choice",
+    "question": "ASAP の意味は？",
+    "choices": ["できるだけ早く", "割り当て", "実到着時間", "折り返し運航"],
+    "answer": "できるだけ早く",
+    "explanation": "ASAP は「できるだけ早く（As Soon As Possible）」の略です。"
+  },
+  {
+    "id": 12,
+    "type": "multiple_choice",
+    "question": "ASGN の意味は？",
+    "choices": ["割り当て", "実到着時間", "折り返し運航", "航空管制"],
+    "answer": "割り当て",
+    "explanation": "ASGN は「割り当て（Assign）」の略です。"
+  },
+  {
+    "id": 13,
+    "type": "multiple_choice",
+    "question": "ATA の意味は？",
+    "choices": ["実到着時間", "折り返し運航", "航空管制", "実出発時間"],
+    "answer": "実到着時間",
+    "explanation": "ATA は「実到着時間（Actual Time of Arrival）」の略です。"
+  },
+  {
+    "id": 14,
+    "type": "multiple_choice",
+    "question": "ATB の意味は？",
+    "choices": ["折り返し運航", "航空管制", "実出発時間", "注意"],
+    "answer": "折り返し運航",
+    "explanation": "ATB は「折り返し運航（Air Turn Back）」の略です。"
+  },
+  {
+    "id": 15,
+    "type": "multiple_choice",
+    "question": "ATC の意味は？",
+    "choices": ["航空管制", "実出発時間", "注意", "認可"],
+    "answer": "航空管制",
+    "explanation": "ATC は「航空管制（Air Traffic Control）」の略です。"
+  },
+  {
+    "id": 16,
+    "type": "multiple_choice",
+    "question": "ATD の意味は？",
+    "choices": ["実出発時間", "注意", "認可", "機内預かり動物"],
+    "answer": "実出発時間",
+    "explanation": "ATD は「実出発時間（Actual Time of Departure）」の略です。"
+  },
+  {
+    "id": 17,
+    "type": "multiple_choice",
+    "question": "ATT/ATTN の意味は？",
+    "choices": ["注意", "認可", "機内預かり動物", "ベビーベッド席"],
+    "answer": "注意",
+    "explanation": "ATT/ATTN は「注意（Attention）」の略です。"
+  },
+  {
+    "id": 18,
+    "type": "multiple_choice",
+    "question": "AUTH の意味は？",
+    "choices": ["認可", "機内預かり動物", "ベビーベッド席", "予約"],
+    "answer": "認可",
+    "explanation": "AUTH は「認可（Authorization）」の略です。"
+  },
+  {
+    "id": 19,
+    "type": "multiple_choice",
+    "question": "AVIH の意味は？",
+    "choices": ["機内預かり動物", "ベビーベッド席", "予約", "出発予定時間"],
+    "answer": "機内預かり動物",
+    "explanation": "AVIH は「機内預かり動物（Animal In Hold）」の略です。"
+  },
+  {
+    "id": 20,
+    "type": "multiple_choice",
+    "question": "Bassinet の意味は？",
+    "choices": ["ベビーベッド席", "予約", "出発予定時間", "超過手荷物料金"],
+    "answer": "ベビーベッド席",
+    "explanation": "Bassinet は「ベビーベッド席」のことです。"
+  },
+  {
+    "id": 21,
+    "type": "multiple_choice",
+    "question": "BKG の意味は？",
+    "choices": ["予約", "出発予定時間", "超過手荷物料金", "非常口"],
+    "answer": "予約",
+    "explanation": "BKG は「予約（Booking）」の略です。"
+  },
+  {
+    "id": 22,
+    "type": "multiple_choice",
+    "question": "ETD の意味は？",
+    "choices": ["出発予定時間", "超過手荷物料金", "非常口", "フェリーフライト"],
+    "answer": "出発予定時間",
+    "explanation": "ETD は「出発予定時間（Estimated Time of Departure）」の略です。"
+  },
+  {
+    "id": 23,
+    "type": "multiple_choice",
+    "question": "EXCESS の意味は？",
+    "choices": ["超過手荷物料金", "非常口", "フェリーフライト", "運賃"],
+    "answer": "超過手荷物料金",
+    "explanation": "EXCESS は「超過手荷物料金（Excess baggage）」の略です。"
+  },
+  {
+    "id": 24,
+    "type": "multiple_choice",
+    "question": "EXIT の意味は？",
+    "choices": ["非常口", "フェリーフライト", "運賃", "フライト割り当て証"],
+    "answer": "非常口",
+    "explanation": "EXIT は「非常口（Exit）」の略です。"
+  },
+  {
+    "id": 25,
+    "type": "multiple_choice",
+    "question": "FRY の意味は？",
+    "choices": ["フェリーフライト", "運賃", "フライト割り当て証", "フライト"],
+    "answer": "フェリーフライト",
+    "explanation": "FRY は「フェリーフライト（Ferry flight）」の略です。"
+  },
+  {
+    "id": 26,
+    "type": "multiple_choice",
+    "question": "FARE の意味は？",
+    "choices": ["運賃", "フライト割り当て証", "フライト", "燃油サーチャージ"],
+    "answer": "運賃",
+    "explanation": "FARE は「運賃（Fare）」の略です。"
+  },
+  {
+    "id": 27,
+    "type": "multiple_choice",
+    "question": "FIM の意味は？",
+    "choices": ["フライト割り当て証", "フライト", "燃油サーチャージ", "ご参考までに"],
+    "answer": "フライト割り当て証",
+    "explanation": "FIM は「フライト割り当て証（Flight Interruption Manifest）」の略です。"
+  },
+  {
+    "id": 28,
+    "type": "multiple_choice",
+    "question": "FLT の意味は？",
+    "choices": ["フライト", "燃油サーチャージ", "ご参考までに", "異物損傷"],
+    "answer": "フライト",
+    "explanation": "FLT は「フライト（Flight）」の略です。"
+  },
+  {
+    "id": 29,
+    "type": "multiple_choice",
+    "question": "Fuel Surcharge の意味は？",
+    "choices": ["燃油サーチャージ", "ご参考までに", "異物損傷", "頻繁搭乗者"],
+    "answer": "燃油サーチャージ",
+    "explanation": "Fuel Surcharge は「燃油サーチャージ」のことです。"
+  },
+  {
+    "id": 30,
+    "type": "multiple_choice",
+    "question": "FYI の意味は？",
+    "choices": ["ご参考までに", "異物損傷", "頻繁搭乗者", "ギャレー"],
+    "answer": "ご参考までに",
+    "explanation": "FYI は「ご参考までに（For Your Information）」の略です。"
+  },
+  {
+    "id": 31,
+    "type": "multiple_choice",
+    "question": "FOD の意味は？",
+    "choices": ["異物損傷", "頻繁搭乗者", "ギャレー", "入出国申告"],
+    "answer": "異物損傷",
+    "explanation": "FOD は「異物損傷（Foreign Object Damage）」の略です。"
+  },
+  {
+    "id": 32,
+    "type": "multiple_choice",
+    "question": "FQTV の意味は？",
+    "choices": ["頻繁搭乗者", "ギャレー", "入出国申告", "グリニッジ標準時"],
+    "answer": "頻繁搭乗者",
+    "explanation": "FQTV は「頻繁搭乗者（Frequent Traveler）」の略です。"
+  },
+  {
+    "id": 33,
+    "type": "multiple_choice",
+    "question": "GALLEY の意味は？",
+    "choices": ["ギャレー", "入出国申告", "グリニッジ標準時", "飛行機直行搭乗"],
+    "answer": "ギャレー",
+    "explanation": "GALLEY は「ギャレー（客室内の調理室）」のことです。"
+  },
+  {
+    "id": 34,
+    "type": "multiple_choice",
+    "question": "GD/GEND の意味は？",
+    "choices": ["入出国申告", "グリニッジ標準時", "飛行機直行搭乗", "地上電源装置"],
+    "answer": "入出国申告",
+    "explanation": "GD/GEND は「入出国申告（General Declaration）」の略です。"
+  },
+  {
+    "id": 35,
+    "type": "multiple_choice",
+    "question": "GMT の意味は？",
+    "choices": ["グリニッジ標準時", "飛行機直行搭乗", "地上電源装置", "地上支援機材"],
+    "answer": "グリニッジ標準時",
+    "explanation": "GMT は「グリニッジ標準時（Greenwich Mean Time）」の略です。"
+  },
+  {
+    "id": 36,
+    "type": "multiple_choice",
+    "question": "GOSH の意味は？",
+    "choices": ["飛行機直行搭乗", "地上電源装置", "地上支援機材", "地上折り返し"],
+    "answer": "飛行機直行搭乗",
+    "explanation": "GOSH は「飛行機直行搭乗（Go Show）」の略です。"
+  },
+  {
+    "id": 37,
+    "type": "multiple_choice",
+    "question": "GPU の意味は？",
+    "choices": ["地上電源装置", "地上支援機材", "地上折り返し", "ホテル"],
+    "answer": "地上電源装置",
+    "explanation": "GPU は「地上電源装置（Ground Power Unit）」の略です。"
+  },
+  {
+    "id": 38,
+    "type": "multiple_choice",
+    "question": "GSE の意味は？",
+    "choices": ["地上支援機材", "地上折り返し", "ホテル", "国際航空運送協会"],
+    "answer": "地上支援機材",
+    "explanation": "GSE は「地上支援機材（Ground Support Equipment）」の略です。"
+  },
+  {
+    "id": 39,
+    "type": "multiple_choice",
+    "question": "GTB の意味は？",
+    "choices": ["地上折り返し", "ホテル", "国際航空運送協会", "国際民間航空機関"],
+    "answer": "地上折り返し",
+    "explanation": "GTB は「地上折り返し（Ground Turn Back）」の略です。"
+  },
+  {
+    "id": 40,
+    "type": "multiple_choice",
+    "question": "HTL の意味は？",
+    "choices": ["ホテル", "国際航空運送協会", "国際民間航空機関", "保税倉庫"],
+    "answer": "ホテル",
+    "explanation": "HTL は「ホテル（Hotel）」の略です。"
+  },
+  {
+    "id": 41,
+    "type": "multiple_choice",
+    "question": "IATA の意味は？",
+    "choices": ["国際航空運送協会", "国際民間航空機関", "保税倉庫", "搭乗券"],
+    "answer": "国際航空運送協会",
+    "explanation": "IATA は「国際航空運送協会（International Air Transport Association）」の略です。"
+  },
+  {
+    "id": 42,
+    "type": "multiple_choice",
+    "question": "ICAO の意味は？",
+    "choices": ["国際民間航空機関", "保税倉庫", "搭乗券", "仕切り壁席"],
+    "answer": "国際民間航空機関",
+    "explanation": "ICAO は「国際民間航空機関（International Civil Aviation Organization）」の略です。"
+  },
+  {
+    "id": 43,
+    "type": "multiple_choice",
+    "question": "BOND の意味は？",
+    "choices": ["保税倉庫", "搭乗券", "仕切り壁席", "後部貨物室"],
+    "answer": "保税倉庫",
+    "explanation": "BOND は「保税倉庫（Bond）」の略です。"
+  },
+  {
+    "id": 44,
+    "type": "multiple_choice",
+    "question": "BP の意味は？",
+    "choices": ["搭乗券", "仕切り壁席", "後部貨物室", "確認"],
+    "answer": "搭乗券",
+    "explanation": "BP は「搭乗券（Boarding Pass）」の略です。"
+  },
+  {
+    "id": 45,
+    "type": "multiple_choice",
+    "question": "Bulkhead の意味は？",
+    "choices": ["仕切り壁席", "後部貨物室", "確認", "小児"],
+    "answer": "仕切り壁席",
+    "explanation": "Bulkhead は「仕切り壁席」のことです。"
+  },
+  {
+    "id": 46,
+    "type": "multiple_choice",
+    "question": "BULK の意味は？",
+    "choices": ["後部貨物室", "確認", "小児", "チェックイン"],
+    "answer": "後部貨物室",
+    "explanation": "BULK は「後部貨物室（Bulk）」の略です。"
+  },
+  {
+    "id": 47,
+    "type": "multiple_choice",
+    "question": "CFM の意味は？",
+    "choices": ["確認", "小児", "チェックイン", "キャンセル"],
+    "answer": "確認",
+    "explanation": "CFM は「確認（Confirm）」の略です。"
+  },
+  {
+    "id": 48,
+    "type": "multiple_choice",
+    "question": "CHD の意味は？",
+    "choices": ["小児", "チェックイン", "キャンセル", "機内持ち込み荷物"],
+    "answer": "小児",
+    "explanation": "CHD は「小児（Child）」の略です。"
+  },
+  {
+    "id": 49,
+    "type": "multiple_choice",
+    "question": "CKIN の意味は？",
+    "choices": ["チェックイン", "キャンセル", "機内持ち込み荷物", "社用郵便"],
+    "answer": "チェックイン",
+    "explanation": "CKIN は「チェックイン（Check In）」の略です。"
+  },
+  {
+    "id": 50,
+    "type": "multiple_choice",
+    "question": "CNL/XLD の意味は？",
+    "choices": ["キャンセル", "機内持ち込み荷物", "社用郵便", "社用貨物"],
+    "answer": "キャンセル",
+    "explanation": "CNL/XLD は「キャンセル」の略です。"
+  },
+  {
+    "id": 51,
+    "type": "multiple_choice",
+    "question": "COB の意味は？",
+    "choices": ["機内持ち込み荷物", "社用郵便", "社用貨物", "乗員"],
+    "answer": "機内持ち込み荷物",
+    "explanation": "COB は「機内持ち込み荷物（Carry-on Baggage）」の略です。"
+  },
+  {
+    "id": 52,
+    "type": "multiple_choice",
+    "question": "COMAIL の意味は？",
+    "choices": ["社用郵便", "社用貨物", "乗員", "連絡"],
+    "answer": "社用郵便",
+    "explanation": "COMAIL は「社用郵便（Company Mail）」の略です。"
+  },
+  {
+    "id": 53,
+    "type": "multiple_choice",
+    "question": "COMAT の意味は？",
+    "choices": ["社用貨物", "乗員", "連絡", "搭乗拒否補償"],
+    "answer": "社用貨物",
+    "explanation": "COMAT は「社用貨物（Company Material）」の略です。"
+  },
+  {
+    "id": 54,
+    "type": "multiple_choice",
+    "question": "CREW の意味は？",
+    "choices": ["乗員", "連絡", "搭乗拒否補償", "出発管理システム"],
+    "answer": "乗員",
+    "explanation": "CREW は「乗員（Crew）」の略です。"
+  },
+  {
+    "id": 55,
+    "type": "multiple_choice",
+    "question": "CTC の意味は？",
+    "choices": ["連絡", "搭乗拒否補償", "出発管理システム", "出発"],
+    "answer": "連絡",
+    "explanation": "CTC は「連絡（Contact）」の略です。"
+  },
+  {
+    "id": 56,
+    "type": "multiple_choice",
+    "question": "DBC の意味は？",
+    "choices": ["搭乗拒否補償", "出発管理システム", "出発", "送還者"],
+    "answer": "搭乗拒否補償",
+    "explanation": "DBC は「搭乗拒否補償（Denied Boarding Compensation）」の略です。"
+  },
+  {
+    "id": 57,
+    "type": "multiple_choice",
+    "question": "DCS の意味は？",
+    "choices": ["出発管理システム", "出発", "送還者", "目的地"],
+    "answer": "出発管理システム",
+    "explanation": "DCS は「出発管理システム（Departure Control System）」の略です。"
+  },
+  {
+    "id": 58,
+    "type": "multiple_choice",
+    "question": "DEP の意味は？",
+    "choices": ["出発", "送還者", "目的地", "危険物規則"],
+    "answer": "出発",
+    "explanation": "DEP は「出発（Departure）」の略です。"
+  },
+  {
+    "id": 59,
+    "type": "multiple_choice",
+    "question": "DEPO の意味は？",
+    "choices": ["送還者", "目的地", "危険物規則", "デッドヘッド"],
+    "answer": "送還者",
+    "explanation": "DEPO は「送還者（Deportee）」の略です。"
+  },
+  {
+    "id": 60,
+    "type": "multiple_choice",
+    "question": "DEST の意味は？",
+    "choices": ["目的地", "危険物規則", "デッドヘッド", "遅延"],
+    "answer": "目的地",
+    "explanation": "DEST は「目的地（Destination）」の略です。"
+  },
+  {
+    "id": 61,
+    "type": "multiple_choice",
+    "question": "DGR の意味は？",
+    "choices": ["危険物規則", "デッドヘッド", "遅延", "国内線"],
+    "answer": "危険物規則",
+    "explanation": "DGR は「危険物規則（Dangerous Goods Regulations）」の略です。"
+  },
+  {
+    "id": 62,
+    "type": "multiple_choice",
+    "question": "DH の意味は？",
+    "choices": ["デッドヘッド", "遅延", "国内線", "迂回"],
+    "answer": "デッドヘッド",
+    "explanation": "DH は「デッドヘッド（Deadhead）」の略です。"
+  },
+  {
+    "id": 63,
+    "type": "multiple_choice",
+    "question": "DLY の意味は？",
+    "choices": ["遅延", "国内線", "迂回", "出入国カード"],
+    "answer": "遅延",
+    "explanation": "DLY は「遅延（Delay）」の略です。"
+  },
+  {
+    "id": 64,
+    "type": "multiple_choice",
+    "question": "DOM の意味は？",
+    "choices": ["国内線", "迂回", "出入国カード", "裏書"],
+    "answer": "国内線",
+    "explanation": "DOM は「国内線（Domestic）」の略です。"
+  },
+  {
+    "id": 65,
+    "type": "multiple_choice",
+    "question": "DVT の意味は？",
+    "choices": ["迂回", "出入国カード", "裏書", "到着予定時間"],
+    "answer": "迂回",
+    "explanation": "DVT は「迂回（Divert／Diversion）」の略です。"
+  },
+  {
+    "id": 66,
+    "type": "multiple_choice",
+    "question": "ED Card の意味は？",
+    "choices": ["出入国カード", "裏書", "到着予定時間", "出発時刻"],
+    "answer": "出入国カード",
+    "explanation": "ED Card は「出入国カード（Embarkation/Disembarkation Card）」の略です。"
+  },
+  {
+    "id": 67,
+    "type": "multiple_choice",
+    "question": "Endorsement の意味は？",
+    "choices": ["裏書", "到着予定時間", "出発時刻", "ステーション"],
+    "answer": "裏書",
+    "explanation": "Endorsement は「裏書」のことです。"
+  },
+  {
+    "id": 68,
+    "type": "multiple_choice",
+    "question": "ETA の意味は？",
+    "choices": ["到着予定時間", "出発時刻", "ステーション", "待機"],
+    "answer": "到着予定時間",
+    "explanation": "ETA は「到着予定時間（Estimated Time of Arrival）」の略です。"
+  },
+  {
+    "id": 69,
+    "type": "multiple_choice",
+    "question": "STD の意味は？",
+    "choices": ["出発時刻", "ステーション", "待機", "免税品"],
+    "answer": "出発時刻",
+    "explanation": "STD は「出発時刻（Scheduled Time of Departure）」の略です。"
+  },
+  {
+    "id": 70,
+    "type": "multiple_choice",
+    "question": "STN の意味は？",
+    "choices": ["ステーション", "待機", "免税品", "後日通知"],
+    "answer": "ステーション",
+    "explanation": "STN は「ステーション（Station）」の略です。"
+  },
+  {
+    "id": 71,
+    "type": "multiple_choice",
+    "question": "STBY の意味は？",
+    "choices": ["待機", "免税品", "後日通知", "感謝"],
+    "answer": "待機",
+    "explanation": "STBY は「待機（Stand-by）」の略です。"
+  },
+  {
+    "id": 72,
+    "type": "multiple_choice",
+    "question": "Tax Free Articles の意味は？",
+    "choices": ["免税品", "後日通知", "感謝", "航空券"],
+    "answer": "免税品",
+    "explanation": "Tax Free Articles は「免税品」のことです。"
+  },
+  {
+    "id": 73,
+    "type": "multiple_choice",
+    "question": "TBA の意味は？",
+    "choices": ["後日通知", "感謝", "航空券", "曳航"],
+    "answer": "後日通知",
+    "explanation": "TBA は「後日通知（To Be Advised）」の略です。"
+  },
+  {
+    "id": 74,
+    "type": "multiple_choice",
+    "question": "THX/TKS の意味は？",
+    "choices": ["感謝", "航空券", "曳航", "乗継"],
+    "answer": "感謝",
+    "explanation": "THX/TKS は「感謝（Thanks）」の略です。"
+  },
+  {
+    "id": 75,
+    "type": "multiple_choice",
+    "question": "TKT の意味は？",
+    "choices": ["航空券", "曳航", "乗継", "合計"],
+    "answer": "航空券",
+    "explanation": "TKT は「航空券（Ticket）」の略です。"
+  },
+  {
+    "id": 76,
+    "type": "multiple_choice",
+    "question": "TOWING の意味は？",
+    "choices": ["曳航", "乗継", "合計", "無伴奏未成年"],
+    "answer": "曳航",
+    "explanation": "TOWING は「曳航（Towing）」の略です。"
+  },
+  {
+    "id": 77,
+    "type": "multiple_choice",
+    "question": "TRSFR の意味は？",
+    "choices": ["乗継", "合計", "無伴奏未成年", "不明"],
+    "answer": "乗継",
+    "explanation": "TRSFR は「乗継（Transfer）」の略です。"
+  },
+  {
+    "id": 78,
+    "type": "multiple_choice",
+    "question": "TTL の意味は？",
+    "choices": ["合計", "無伴奏未成年", "不明", "ユニットロードデバイス"],
+    "answer": "合計",
+    "explanation": "TTL は「合計（Total）」の略です。"
+  },
+  {
+    "id": 79,
+    "type": "multiple_choice",
+    "question": "UM の意味は？",
+    "choices": ["無伴奏未成年", "不明", "ユニットロードデバイス", "バウチャー"],
+    "answer": "無伴奏未成年",
+    "explanation": "UM は「無伴奏未成年（Unaccompanied Minor）」の略です。"
+  },
+  {
+    "id": 80,
+    "type": "multiple_choice",
+    "question": "UNK の意味は？",
+    "choices": ["不明", "ユニットロードデバイス", "バウチャー", "ボランティア"],
+    "answer": "不明",
+    "explanation": "UNK は「不明（Unknown）」の略です。"
+  },
+  {
+    "id": 81,
+    "type": "multiple_choice",
+    "question": "ULD の意味は？",
+    "choices": ["ユニットロードデバイス", "バウチャー", "ボランティア", "無効"],
+    "answer": "ユニットロードデバイス",
+    "explanation": "ULD は「ユニットロードデバイス（Unit Load Device）」の略です。"
+  },
+  {
+    "id": 82,
+    "type": "multiple_choice",
+    "question": "VCHR の意味は？",
+    "choices": ["バウチャー", "ボランティア", "無効", "車椅子利用客"],
+    "answer": "バウチャー",
+    "explanation": "VCHR は「バウチャー（Voucher）」の略です。"
+  },
+  {
+    "id": 83,
+    "type": "multiple_choice",
+    "question": "Volunteer の意味は？",
+    "choices": ["ボランティア", "無効", "車椅子利用客", "窓側席"],
+    "answer": "ボランティア",
+    "explanation": "Volunteer は「ボランティア」のことです。"
+  },
+  {
+    "id": 84,
+    "type": "multiple_choice",
+    "question": "VOID の意味は？",
+    "choices": ["無効", "車椅子利用客", "窓側席", "無作業"],
+    "answer": "無効",
+    "explanation": "VOID は「無効（Void）」の略です。"
+  },
+  {
+    "id": 85,
+    "type": "multiple_choice",
+    "question": "WCHR の意味は？",
+    "choices": ["車椅子利用客", "窓側席", "無作業", "危険物搭載通知"],
+    "answer": "車椅子利用客",
+    "explanation": "WCHR は「車椅子利用客（Wheelchair）」の略です。"
+  },
+  {
+    "id": 86,
+    "type": "multiple_choice",
+    "question": "Window の意味は？",
+    "choices": ["窓側席", "無作業", "危険物搭載通知", "通常"],
+    "answer": "窓側席",
+    "explanation": "Window は「窓側席」のことです。"
+  },
+  {
+    "id": 87,
+    "type": "multiple_choice",
+    "question": "NOOP の意味は？",
+    "choices": ["無作業", "危険物搭載通知", "通常", "片道"],
+    "answer": "無作業",
+    "explanation": "NOOP は「無作業（No Operation）」の略です。"
+  },
+  {
+    "id": 88,
+    "type": "multiple_choice",
+    "question": "NOTOC の意味は？",
+    "choices": ["危険物搭載通知", "通常", "片道", "オープンチケット"],
+    "answer": "危険物搭載通知",
+    "explanation": "NOTOC は「危険物搭載通知（Special Load Notification to Captain）」の略です。"
+  },
+  {
+    "id": 89,
+    "type": "multiple_choice",
+    "question": "NRML の意味は？",
+    "choices": ["通常", "片道", "オープンチケット", "オーバーブッキング"],
+    "answer": "通常",
+    "explanation": "NRML は「通常（Normal）」の略です。"
+  },
+  {
+    "id": 90,
+    "type": "multiple_choice",
+    "question": "OW の意味は？",
+    "choices": ["片道", "オープンチケット", "オーバーブッキング", "乗客"],
+    "answer": "片道",
+    "explanation": "OW は「片道（One Way）」の略です。"
+  },
+  {
+    "id": 91,
+    "type": "multiple_choice",
+    "question": "OPEN TKT の意味は？",
+    "choices": ["オープンチケット", "オーバーブッキング", "乗客", "搭乗橋"],
+    "answer": "オープンチケット",
+    "explanation": "OPEN TKT は「オープンチケット（Open Ticket）」の略です。"
+  },
+  {
+    "id": 92,
+    "type": "multiple_choice",
+    "question": "Over Booking の意味は？",
+    "choices": ["オーバーブッキング", "乗客", "搭乗橋", "機内携帯動物"],
+    "answer": "オーバーブッキング",
+    "explanation": "Over Booking は「オーバーブッキング」のことです。"
+  },
+  {
+    "id": 93,
+    "type": "multiple_choice",
+    "question": "PAX/PSGR の意味は？",
+    "choices": ["乗客", "搭乗橋", "機内携帯動物", "乗客情報リスト"],
+    "answer": "乗客",
+    "explanation": "PAX/PSGR は「乗客（Passenger）」の略です。"
+  },
+  {
+    "id": 94,
+    "type": "multiple_choice",
+    "question": "PBB の意味は？",
+    "choices": ["搭乗橋", "機内携帯動物", "乗客情報リスト", "財貨不具合報告"],
+    "answer": "搭乗橋",
+    "explanation": "PBB は「搭乗橋（Passenger Boarding Bridge）」の略です。"
+  },
+  {
+    "id": 95,
+    "type": "multiple_choice",
+    "question": "PETC の意味は？",
+    "choices": ["機内携帯動物", "乗客情報リスト", "財貨不具合報告", "お願いします"],
+    "answer": "機内携帯動物",
+    "explanation": "PETC は「機内携帯動物（Pet In Cabin）」の略です。"
+  },
+  {
+    "id": 96,
+    "type": "multiple_choice",
+    "question": "PIL の意味は？",
+    "choices": ["乗客情報リスト", "財貨不具合報告", "お願いします", "予約記録"],
+    "answer": "乗客情報リスト",
+    "explanation": "PIL は「乗客情報リスト（Passenger Information List）」の略です。"
+  },
+  {
+    "id": 97,
+    "type": "multiple_choice",
+    "question": "PIR の意味は？",
+    "choices": ["財貨不具合報告", "お願いします", "予約記録", "妊婦"],
+    "answer": "財貨不具合報告",
+    "explanation": "PIR は「財貨不具合報告（Property Irregularity Report）」の略です。"
+  },
+  {
+    "id": 98,
+    "type": "multiple_choice",
+    "question": "PLZ の意味は？",
+    "choices": ["お願いします", "予約記録", "妊婦", "パスポート"],
+    "answer": "お願いします",
+    "explanation": "PLZ は「お願いします（Please）」の略です。"
+  },
+  {
+    "id": 99,
+    "type": "multiple_choice",
+    "question": "PNR の意味は？",
+    "choices": ["予約記録", "妊婦", "パスポート", "受領済み"],
+    "answer": "予約記録",
+    "explanation": "PNR は「予約記録（Passenger Name Record）」の略です。"
+  },
+  {
+    "id": 100,
+    "type": "multiple_choice",
+    "question": "PRGN の意味は？",
+    "choices": ["妊婦", "パスポート", "受領済み", "参照"],
+    "answer": "妊婦",
+    "explanation": "PRGN は「妊婦（Pregnant）」の略です。"
+  },
+  {
+    "id": 101,
+    "type": "multiple_choice",
+    "question": "PSPT/PPT の意味は？",
+    "choices": ["パスポート", "受領済み", "参照", "一夜停泊"],
+    "answer": "パスポート",
+    "explanation": "PSPT/PPT は「パスポート（Passport）」の略です。"
+  },
+  {
+    "id": 102,
+    "type": "multiple_choice",
+    "question": "RCVD の意味は？",
+    "choices": ["受領済み", "参照", "一夜停泊", "要請"],
+    "answer": "受領済み",
+    "explanation": "RCVD は「受領済み（Received）」の略です。"
+  },
+  {
+    "id": 103,
+    "type": "multiple_choice",
+    "question": "REF の意味は？",
+    "choices": ["参照", "一夜停泊", "要請", "復路"],
+    "answer": "参照",
+    "explanation": "REF は「参照（Reference）」の略です。"
+  },
+  {
+    "id": 104,
+    "type": "multiple_choice",
+    "question": "RON の意味は？",
+    "choices": ["一夜停泊", "要請", "復路", "航空機"],
+    "answer": "一夜停泊",
+    "explanation": "RON は「一夜停泊（Remain Overnight）」の略です。"
+  },
+  {
+    "id": 105,
+    "type": "multiple_choice",
+    "question": "RQ/RQST の意味は？",
+    "choices": ["要請", "復路", "航空機", "特別事項"],
+    "answer": "要請",
+    "explanation": "RQ/RQST は「要請（Request）」の略です。"
+  },
+  {
+    "id": 106,
+    "type": "multiple_choice",
+    "question": "RT/RTN の意味は？",
+    "choices": ["復路", "航空機", "特別事項", "特別食"],
+    "answer": "復路",
+    "explanation": "RT/RTN は「復路（Return）」の略です。"
+  },
+  {
+    "id": 107,
+    "type": "multiple_choice",
+    "question": "SHIP の意味は？",
+    "choices": ["航空機", "特別事項", "特別食", "到着時刻"],
+    "answer": "航空機",
+    "explanation": "SHIP は「航空機（Ship）」の略です。"
+  },
+  {
+    "id": 108,
+    "type": "multiple_choice",
+    "question": "SPCL の意味は？",
+    "choices": ["特別事項", "特別食", "到着時刻", "出発予定時間"],
+    "answer": "特別事項",
+    "explanation": "SPCL は「特別事項（Special）」の略です。"
+  },
+  {
+    "id": 109,
+    "type": "multiple_choice",
+    "question": "Special Meal の意味は？",
+    "choices": ["特別食", "到着時刻", "出発予定時間", "ステーション"],
+    "answer": "特別食",
+    "explanation": "Special Meal は「特別食」のことです。"
+  },
+  {
+    "id": 110,
+    "type": "multiple_choice",
+    "question": "STA の意味は？",
+    "choices": ["到着時刻", "出発予定時間", "ステーション", "待機"],
+    "answer": "到着時刻",
+    "explanation": "STA は「到着時刻（Scheduled Time of Arrival）」の略です。"
+  },
+  {
+    "id": 111,
+    "type": "multiple_choice",
+    "question": "MCO の意味は？",
+    "choices": ["雑費請求書", "最低乗継所要時間", "整備", "メッセージ"],
+    "answer": "雑費請求書",
+    "explanation": "MCO は「雑費請求書（Miscellaneous Charge Order）」の略です。"
+  },
+  {
+    "id": 112,
+    "type": "multiple_choice",
+    "question": "MCT の意味は？",
+    "choices": ["最低乗継所要時間", "整備", "メッセージ", "自動貨物通関システム"],
+    "answer": "最低乗継所要時間",
+    "explanation": "MCT は「最低乗継所要時間（Minimum Connecting Time）」の略です。"
+  },
+  {
+    "id": 113,
+    "type": "multiple_choice",
+    "question": "MNT の意味は？",
+    "choices": ["整備", "メッセージ", "自動貨物通関システム", "無"],
+    "answer": "整備",
+    "explanation": "MNT は「整備（Maintenance）」の略です。"
+  },
+  {
+    "id": 114,
+    "type": "multiple_choice",
+    "question": "MSG の意味は？",
+    "choices": ["メッセージ", "自動貨物通関システム", "無", "非収益旅客"],
+    "answer": "メッセージ",
+    "explanation": "MSG は「メッセージ（Message）」の略です。"
+  },
+  {
+    "id": 115,
+    "type": "multiple_choice",
+    "question": "NACCS の意味は？",
+    "choices": ["自動貨物通関システム", "無", "非収益旅客", "料金対象外"],
+    "answer": "自動貨物通関システム",
+    "explanation": "NACCS は「自動貨物通関システム（Nippon Automated Cargo Clearance System）」の略です。"
+  },
+  {
+    "id": 116,
+    "type": "multiple_choice",
+    "question": "NIL の意味は？",
+    "choices": ["無", "非収益旅客", "料金対象外", "不出航"],
+    "answer": "無",
+    "explanation": "NIL は「無（Nothing）」の略です。"
+  },
+  {
+    "id": 117,
+    "type": "multiple_choice",
+    "question": "NONREV の意味は？",
+    "choices": ["非収益旅客", "料金対象外", "不出航", "オープンチケット"],
+    "answer": "非収益旅客",
+    "explanation": "NONREV は「非収益旅客（Non-Revenue Passenger）」の略です。"
+  },
+  {
+    "id": 118,
+    "type": "multiple_choice",
+    "question": "NOSUB の意味は？",
+    "choices": ["料金対象外", "不出航", "搭乗券", "乗継"],
+    "answer": "料金対象外",
+    "explanation": "NOSUB は「料金対象外（Not Subject to Load）」の略です。"
+  },
+  {
+    "id": 119,
+    "type": "multiple_choice",
+    "question": "NOSH/N/S の意味は？",
+    "choices": ["不出航", "搭乗券", "乗継", "出発管理システム"],
+    "answer": "不出航",
+    "explanation": "NOSH/N/S は「不出航（No Show）」の略です。"
+  }
+]
