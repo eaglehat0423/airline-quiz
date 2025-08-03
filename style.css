@@ -6,7 +6,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
 html, body {
   font-family: 'Segoe UI', 'Roboto', sans-serif;
   background: linear-gradient(135deg, #e0f2ff, #f7f9fc);
@@ -14,6 +13,8 @@ html, body {
   text-align: center;
   min-height: 100vh;
   overflow-x: hidden;
+  overflow-y: hidden;
+  height: 100%;
 }
 
 /* ===========================
@@ -30,7 +31,6 @@ html, body {
 /* ===========================
    CONTAINERS
 =========================== */
-/* セクション選択 */
 #section-container {
   padding: 20px;
   max-width: 500px;
@@ -43,21 +43,24 @@ html, body {
   margin: 0 auto;
 }
 
-/* クイズ画面：中央固定＆スクロール可能 */
+/* クイズ画面：画面中央に固定、高さ制限をかけて内部をスクロール */
 #quiz-container {
   position: fixed;
-  top: 0;
-  bottom: 0;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, -50%);
   width: calc(100% - 20px);
   max-width: 500px;
+  height: calc(100% - 40px);
   background: #ffffff;
   border-radius: 12px;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
-  padding: 80px 20px 20px; /* ヘッダーぶん上部余白を確保 */
+  padding: 20px;
   overflow-y: auto;
-  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  /* セクション選択時のラッパーが効かないように */
+  margin: 0;
+  z-index: 10;
 }
 
 /* ===========================
@@ -79,13 +82,11 @@ button {
   transition: all 0.3s ease;
   box-shadow: 0 4px 12px rgba(0, 122, 255, 0.2);
 }
-
 button:hover:not(:disabled) {
   background: linear-gradient(135deg, #3a8ef6, #00d0ff);
   transform: translateY(-2px);
   box-shadow: 0 6px 16px rgba(0, 122, 255, 0.3);
 }
-
 button:disabled {
   background: #ccc;
   cursor: not-allowed;
@@ -106,7 +107,6 @@ input[type="text"] {
   outline: none;
   transition: border 0.2s ease;
 }
-
 input[type="text"]:focus {
   border-color: #4facfe;
   box-shadow: 0 0 5px rgba(79, 172, 254, 0.3);
@@ -116,35 +116,28 @@ input[type="text"]:focus {
    FIXED HEADER
 =========================== */
 .sticky-header {
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: calc(100% - 20px);
-  max-width: 500px;
   background: #ffffff;
   padding: 12px 10px;
   border-bottom: 1px solid #ddd;
   display: flex;
   flex-direction: column;
   align-items: center;
-  z-index: 1000;
+  z-index: 20;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
-
 .header-title {
   font-weight: bold;
   font-size: 18px;
   margin-bottom: 4px;
   color: #333;
 }
-
 .progress-text {
   font-size: 14px;
   margin-bottom: 6px;
   color: #555;
 }
-
 .progress-bar {
   width: 90%;
   height: 10px;
@@ -152,7 +145,6 @@ input[type="text"]:focus {
   border-radius: 5px;
   overflow: hidden;
 }
-
 .progress-fill {
   height: 100%;
   background: linear-gradient(90deg, #4facfe, #00f2fe);
@@ -165,9 +157,8 @@ input[type="text"]:focus {
 =========================== */
 .question-box {
   margin-top: 20px;
-  padding: 15px;
+  padding-bottom: 20px;
 }
-
 .question-box img {
   max-width: 90%;
   margin: 12px auto;
@@ -186,12 +177,10 @@ input[type="text"]:focus {
   border-radius: 6px;
   animation: fadeIn 0.3s ease;
 }
-
 .result[style*="green"] {
   background: #e6f8e9;
   color: #2e7d32;
 }
-
 .result[style*="red"] {
   background: #ffeaea;
   color: #d32f2f;
@@ -209,17 +198,14 @@ input[type="text"]:focus {
   text-align: left;
   transition: transform 0.2s ease;
 }
-
 .card:hover {
   transform: translateY(-2px);
 }
-
 .card p {
   margin: 4px 0;
   font-size: 14px;
   line-height: 1.4;
 }
-
 .card strong {
   color: #222;
 }
@@ -240,16 +226,13 @@ input[type="text"]:focus {
     font-size: 14px;
     padding: 10px;
   }
-
   button {
     font-size: 15px;
     padding: 12px;
   }
-
   .header-title {
     font-size: 16px;
   }
-
   .progress-text {
     font-size: 13px;
   }
