@@ -1,0 +1,5 @@
+[
+  { "id": 1, "name": "航空知識", "file": "questions/section1.json" },
+  { "id": 2, "name": "航空安全", "file": "questions/section2.json" },
+  { "id": 3, "name": "航空法規", "file": "questions/section3.json" }
+]

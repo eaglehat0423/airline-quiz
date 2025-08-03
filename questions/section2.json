@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "question": "客室内で酸素マスクが自動的に落ちるのは機内気圧がどの高度相当以下になった時？",
+    "choices": ["約8000ft", "約14000ft", "約20000ft", "約30000ft"],
+    "answer": "約14000ft",
+    "explanation": "機内気圧が14,000ft以下になると酸素マスクが自動的に降下する。",
+    "image": "images/oxygen_mask.jpg"
+  }
+]
