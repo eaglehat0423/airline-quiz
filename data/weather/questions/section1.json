@@ -1,0 +1,702 @@
+[
+  {
+    "type": "short_answer",
+    "code": "ww00",
+    "image": "data/weather/ww_symbols_enhanced/w0_ww0.png",
+    "question": "記号 ww=00 は何を表していますか？",
+    "answer": "前1時間内の雲の変化不明。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww01",
+    "image": "data/weather/ww_symbols_enhanced/w0_ww1.png",
+    "question": "記号 ww=01 は何を表していますか？",
+    "answer": "前1時間内に雲が消散または発達がにぶっている。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww02",
+    "image": "data/weather/ww_symbols_enhanced/w0_ww2.png",
+    "question": "記号 ww=02 は何を表していますか？",
+    "answer": "前1時間内は空模様全般に変化がない。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww03",
+    "image": "data/weather/ww_symbols_enhanced/w0_ww3.png",
+    "question": "記号 ww=03 は何を表していますか？",
+    "answer": "前1時間内に雲が発生または発達。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww04",
+    "image": "data/weather/ww_symbols_enhanced/w0_ww4.png",
+    "question": "記号 ww=04 は何を表していますか？",
+    "answer": "煙（視程10km未満）。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww05",
+    "image": "data/weather/ww_symbols_enhanced/w0_ww5.png",
+    "question": "記号 ww=05 は何を表していますか？",
+    "answer": "煙霧（視程10km未満）。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww06",
+    "image": "data/weather/ww_symbols_enhanced/w0_ww6.png",
+    "question": "記号 ww=06 は何を表していますか？",
+    "answer": "空中広くちり・黄砂が浮遊（観測所付近で風に巻き上げられたものではない、視程10km未満）。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww07",
+    "image": "data/weather/ww_symbols_enhanced/w0_ww7.png",
+    "question": "記号 ww=07 は何を表していますか？",
+    "answer": "観測点または付近で風に巻き上げられたちり・砂（風じん）がある（じん旋風・砂じんあらしはない）。船舶は高いしぶき。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww08",
+    "image": "data/weather/ww_symbols_enhanced/w0_ww8.png",
+    "question": "記号 ww=08 は何を表していますか？",
+    "answer": "観測時または前1時間内に観測点付近で発達したじん旋風（砂じんあらしなし）。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww09",
+    "image": "data/weather/ww_symbols_enhanced/w0_ww9.png",
+    "question": "記号 ww=09 は何を表していますか？",
+    "answer": "観測時に視界内に砂じんあらし、または前1時間内に観測点で砂じんあらし。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww10",
+    "image": "data/weather/ww_symbols_enhanced/w1_ww0.png",
+    "question": "記号 ww=10 は何を表していますか？",
+    "answer": "もや（視程10km未満）。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww11",
+    "image": "data/weather/ww_symbols_enhanced/w1_ww1.png",
+    "question": "記号 ww=11 は何を表していますか？",
+    "answer": "地霧または低い氷霧が散在（目の高さ以下、海上は10m以下）。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww12",
+    "image": "data/weather/ww_symbols_enhanced/w1_ww2.png",
+    "question": "記号 ww=12 は何を表していますか？",
+    "answer": "地霧または低い氷霧が連続（目の高さ以下、海上は10m以下）。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww13",
+    "image": "data/weather/ww_symbols_enhanced/w1_ww3.png",
+    "question": "記号 ww=13 は何を表していますか？",
+    "answer": "電光は見えるが雷鳴は聞こえない。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww14",
+    "image": "data/weather/ww_symbols_enhanced/w1_ww4.png",
+    "question": "記号 ww=14 は何を表していますか？",
+    "answer": "視界内に降水があるが地面・海面に達していない。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww15",
+    "image": "data/weather/ww_symbols_enhanced/w1_ww5.png",
+    "question": "記号 ww=15 は何を表していますか？",
+    "answer": "視界内に降水があり地面到達、観測点から遠い（5km以上）。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww16",
+    "image": "data/weather/ww_symbols_enhanced/w1_ww6.png",
+    "question": "記号 ww=16 は何を表していますか？",
+    "answer": "視界内に降水があり地面到達、観測点にはない（5km未満）。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww17",
+    "image": "data/weather/ww_symbols_enhanced/w1_ww7.png",
+    "question": "記号 ww=17 は何を表していますか？",
+    "answer": "雷電、観測時に降水なし。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww18",
+    "image": "data/weather/ww_symbols_enhanced/w1_ww8.png",
+    "question": "記号 ww=18 は何を表していますか？",
+    "answer": "観測時または前1時間内に観測点または視界内にスコール。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww19",
+    "image": "data/weather/ww_symbols_enhanced/w1_ww9.png",
+    "question": "記号 ww=19 は何を表していますか？",
+    "answer": "観測時または前1時間内に観測点または視界内にたつまき。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww20",
+    "image": "data/weather/ww_symbols_enhanced/w2_ww0.png",
+    "question": "記号 ww=20 は何を表していますか？",
+    "answer": "（しゅう雨性でない）霧雨または霧雪があった。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww21",
+    "image": "data/weather/ww_symbols_enhanced/w2_ww1.png",
+    "question": "記号 ww=21 は何を表していますか？",
+    "answer": "（しゅう雨性でない）雨があった。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww22",
+    "image": "data/weather/ww_symbols_enhanced/w2_ww2.png",
+    "question": "記号 ww=22 は何を表していますか？",
+    "answer": "（しゅう雨性でない）雪があった。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww23",
+    "image": "data/weather/ww_symbols_enhanced/w2_ww3.png",
+    "question": "記号 ww=23 は何を表していますか？",
+    "answer": "（しゅう雨性でない）みぞれまたは凍雨があった。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww24",
+    "image": "data/weather/ww_symbols_enhanced/w2_ww4.png",
+    "question": "記号 ww=24 は何を表していますか？",
+    "answer": "（しゅう雨性でない）着氷性の雨または着氷性の霧雨があった。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww25",
+    "image": "data/weather/ww_symbols_enhanced/w2_ww5.png",
+    "question": "記号 ww=25 は何を表していますか？",
+    "answer": "しゅう雨があった。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww26",
+    "image": "data/weather/ww_symbols_enhanced/w2_ww6.png",
+    "question": "記号 ww=26 は何を表していますか？",
+    "answer": "しゅう雪またはしゅう雨性のみぞれがあった。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww27",
+    "image": "data/weather/ww_symbols_enhanced/w2_ww7.png",
+    "question": "記号 ww=27 は何を表していますか？",
+    "answer": "ひょう/氷あられ/雪あられ、または雨を伴うそれらがあった。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww28",
+    "image": "data/weather/ww_symbols_enhanced/w2_ww8.png",
+    "question": "記号 ww=28 は何を表していますか？",
+    "answer": "霧または氷霧があった。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww29",
+    "image": "data/weather/ww_symbols_enhanced/w2_ww9.png",
+    "question": "記号 ww=29 は何を表していますか？",
+    "answer": "雷電があった（降水を伴ってもよい）。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww30",
+    "image": "data/weather/ww_symbols_enhanced/w3_ww0.png",
+    "question": "記号 ww=30 は何を表していますか？",
+    "answer": "砂じんあらし（視程500m以上）で前1時間に薄くなった。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww31",
+    "image": "data/weather/ww_symbols_enhanced/w3_ww1.png",
+    "question": "記号 ww=31 は何を表していますか？",
+    "answer": "砂じんあらし（視程500m以上）で前1時間に変化なし。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww32",
+    "image": "data/weather/ww_symbols_enhanced/w3_ww2.png",
+    "question": "記号 ww=32 は何を表していますか？",
+    "answer": "砂じんあらし（視程500m以上）で前1時間に始まった/濃くなった。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww33",
+    "image": "data/weather/ww_symbols_enhanced/w3_ww3.png",
+    "question": "記号 ww=33 は何を表していますか？",
+    "answer": "砂じんあらし（視程500m未満）で前1時間に薄くなった。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww34",
+    "image": "data/weather/ww_symbols_enhanced/w3_ww4.png",
+    "question": "記号 ww=34 は何を表していますか？",
+    "answer": "砂じんあらし（視程500m未満）で変化なし。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww35",
+    "image": "data/weather/ww_symbols_enhanced/w3_ww5.png",
+    "question": "記号 ww=35 は何を表していますか？",
+    "answer": "砂じんあらし（視程500m未満）で前1時間に始まった/濃くなった。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww36",
+    "image": "data/weather/ww_symbols_enhanced/w3_ww6.png",
+    "question": "記号 ww=36 は何を表していますか？",
+    "answer": "地ふぶき、弱または並（見かけの視程500m以上）、目の高さより低い。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww37",
+    "image": "data/weather/ww_symbols_enhanced/w3_ww7.png",
+    "question": "記号 ww=37 は何を表していますか？",
+    "answer": "地ふぶき、強（見かけの視程500m未満）、目の高さより低い。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww38",
+    "image": "data/weather/ww_symbols_enhanced/w3_ww8.png",
+    "question": "記号 ww=38 は何を表していますか？",
+    "answer": "地ふぶき、弱または並（視程500m以上）、目の高さより高い。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww39",
+    "image": "data/weather/ww_symbols_enhanced/w3_ww9.png",
+    "question": "記号 ww=39 は何を表していますか？",
+    "answer": "地ふぶき、強（視程500m未満）、目の高さより高い。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww40",
+    "image": "data/weather/ww_symbols_enhanced/w4_ww0.png",
+    "question": "記号 ww=40 は何を表していますか？",
+    "answer": "観測時に離れた所に霧/氷霧があるが、前1時間内に観測所にはなかった（霧は観測者より高い所まで）。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww41",
+    "image": "data/weather/ww_symbols_enhanced/w4_ww1.png",
+    "question": "記号 ww=41 は何を表していますか？",
+    "answer": "霧または氷霧が散在。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww42",
+    "image": "data/weather/ww_symbols_enhanced/w4_ww2.png",
+    "question": "記号 ww=42 は何を表していますか？",
+    "answer": "霧/氷霧、空を透視でき、前1時間に薄くなった。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww43",
+    "image": "data/weather/ww_symbols_enhanced/w4_ww3.png",
+    "question": "記号 ww=43 は何を表していますか？",
+    "answer": "霧/氷霧、空を透視できず、前1時間に薄くなった。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww44",
+    "image": "data/weather/ww_symbols_enhanced/w4_ww4.png",
+    "question": "記号 ww=44 は何を表していますか？",
+    "answer": "霧/氷霧、空を透視でき、前1時間に変化なし。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww45",
+    "image": "data/weather/ww_symbols_enhanced/w4_ww5.png",
+    "question": "記号 ww=45 は何を表していますか？",
+    "answer": "霧/氷霧、空を透視できず、前1時間に変化なし。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww46",
+    "image": "data/weather/ww_symbols_enhanced/w4_ww6.png",
+    "question": "記号 ww=46 は何を表していますか？",
+    "answer": "霧/氷霧、空を透視でき、前1時間に始まった/濃くなった。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww47",
+    "image": "data/weather/ww_symbols_enhanced/w4_ww7.png",
+    "question": "記号 ww=47 は何を表していますか？",
+    "answer": "霧/氷霧、空を透視できず、前1時間に始まった/濃くなった。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww48",
+    "image": "data/weather/ww_symbols_enhanced/w4_ww8.png",
+    "question": "記号 ww=48 は何を表していますか？",
+    "answer": "霧、霧氷発生中、空を透視できる。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww49",
+    "image": "data/weather/ww_symbols_enhanced/w4_ww9.png",
+    "question": "記号 ww=49 は何を表していますか？",
+    "answer": "霧、霧氷発生中、空を透視できない。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww50",
+    "image": "data/weather/ww_symbols_enhanced/w5_ww0.png",
+    "question": "記号 ww=50 は何を表していますか？",
+    "answer": "霧雨、観測時前1時間内に止み間があった。観測時に弱。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww51",
+    "image": "data/weather/ww_symbols_enhanced/w5_ww1.png",
+    "question": "記号 ww=51 は何を表していますか？",
+    "answer": "霧雨、前1時間内に止み間なし。観測時に弱。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww52",
+    "image": "data/weather/ww_symbols_enhanced/w5_ww2.png",
+    "question": "記号 ww=52 は何を表していますか？",
+    "answer": "霧雨、前1時間内に止み間あり。観測時に並。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww53",
+    "image": "data/weather/ww_symbols_enhanced/w5_ww3.png",
+    "question": "記号 ww=53 は何を表していますか？",
+    "answer": "霧雨、前1時間内に止み間なし。観測時に並。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww54",
+    "image": "data/weather/ww_symbols_enhanced/w5_ww4.png",
+    "question": "記号 ww=54 は何を表していますか？",
+    "answer": "霧雨、前1時間内に止み間あり。観測時に強。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww55",
+    "image": "data/weather/ww_symbols_enhanced/w5_ww5.png",
+    "question": "記号 ww=55 は何を表していますか？",
+    "answer": "霧雨、前1時間内に止み間なし。観測時に強。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww56",
+    "image": "data/weather/ww_symbols_enhanced/w5_ww6.png",
+    "question": "記号 ww=56 は何を表していますか？",
+    "answer": "着氷性の霧雨、弱。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww57",
+    "image": "data/weather/ww_symbols_enhanced/w5_ww7.png",
+    "question": "記号 ww=57 は何を表していますか？",
+    "answer": "着氷性の霧雨、並または強。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww58",
+    "image": "data/weather/ww_symbols_enhanced/w5_ww8.png",
+    "question": "記号 ww=58 は何を表していますか？",
+    "answer": "霧雨と雨、弱。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww59",
+    "image": "data/weather/ww_symbols_enhanced/w5_ww9.png",
+    "question": "記号 ww=59 は何を表していますか？",
+    "answer": "霧雨と雨、並または強。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww60",
+    "image": "data/weather/ww_symbols_enhanced/w6_ww0.png",
+    "question": "記号 ww=60 は何を表していますか？",
+    "answer": "雨、観測時前1時間内に止み間あり。観測時に弱。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww61",
+    "image": "data/weather/ww_symbols_enhanced/w6_ww1.png",
+    "question": "記号 ww=61 は何を表していますか？",
+    "answer": "雨、前1時間内に止み間なし。観測時に弱。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww62",
+    "image": "data/weather/ww_symbols_enhanced/w6_ww2.png",
+    "question": "記号 ww=62 は何を表していますか？",
+    "answer": "雨、前1時間内に止み間あり。観測時に並。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww63",
+    "image": "data/weather/ww_symbols_enhanced/w6_ww3.png",
+    "question": "記号 ww=63 は何を表していますか？",
+    "answer": "雨、前1時間内に止み間なし。観測時に並。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww64",
+    "image": "data/weather/ww_symbols_enhanced/w6_ww4.png",
+    "question": "記号 ww=64 は何を表していますか？",
+    "answer": "雨、前1時間内に止み間あり。観測時に強。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww65",
+    "image": "data/weather/ww_symbols_enhanced/w6_ww5.png",
+    "question": "記号 ww=65 は何を表していますか？",
+    "answer": "雨、前1時間内に止み間なし。観測時に強。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww66",
+    "image": "data/weather/ww_symbols_enhanced/w6_ww6.png",
+    "question": "記号 ww=66 は何を表していますか？",
+    "answer": "着氷性の雨、弱。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww67",
+    "image": "data/weather/ww_symbols_enhanced/w6_ww7.png",
+    "question": "記号 ww=67 は何を表していますか？",
+    "answer": "着氷性の雨、並または強。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww68",
+    "image": "data/weather/ww_symbols_enhanced/w6_ww8.png",
+    "question": "記号 ww=68 は何を表していますか？",
+    "answer": "みぞれまたは霧雨と雪、弱。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww69",
+    "image": "data/weather/ww_symbols_enhanced/w6_ww9.png",
+    "question": "記号 ww=69 は何を表していますか？",
+    "answer": "みぞれまたは霧雨と雪、並または強。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww70",
+    "image": "data/weather/ww_symbols_enhanced/w7_ww0.png",
+    "question": "記号 ww=70 は何を表していますか？",
+    "answer": "雪、観測時前1時間内に止み間あり。観測時に弱。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww71",
+    "image": "data/weather/ww_symbols_enhanced/w7_ww1.png",
+    "question": "記号 ww=71 は何を表していますか？",
+    "answer": "雪、前1時間内に止み間なし。観測時に弱。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww72",
+    "image": "data/weather/ww_symbols_enhanced/w7_ww2.png",
+    "question": "記号 ww=72 は何を表していますか？",
+    "answer": "雪、前1時間内に止み間あり。観測時に並。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww73",
+    "image": "data/weather/ww_symbols_enhanced/w7_ww3.png",
+    "question": "記号 ww=73 は何を表していますか？",
+    "answer": "雪、前1時間内に止み間なし。観測時に並。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww74",
+    "image": "data/weather/ww_symbols_enhanced/w7_ww4.png",
+    "question": "記号 ww=74 は何を表していますか？",
+    "answer": "雪、前1時間内に止み間あり。観測時に強。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww75",
+    "image": "data/weather/ww_symbols_enhanced/w7_ww5.png",
+    "question": "記号 ww=75 は何を表していますか？",
+    "answer": "雪、前1時間内に止み間なし。観測時に強。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww76",
+    "image": "data/weather/ww_symbols_enhanced/w7_ww6.png",
+    "question": "記号 ww=76 は何を表していますか？",
+    "answer": "細氷（ダイヤモンドダスト）。霧があってもよい。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww77",
+    "image": "data/weather/ww_symbols_enhanced/w7_ww7.png",
+    "question": "記号 ww=77 は何を表していますか？",
+    "answer": "霧雪。霧があってもよい。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww78",
+    "image": "data/weather/ww_symbols_enhanced/w7_ww8.png",
+    "question": "記号 ww=78 は何を表していますか？",
+    "answer": "単独結晶の雪。霧があってもよい。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww79",
+    "image": "data/weather/ww_symbols_enhanced/w7_ww9.png",
+    "question": "記号 ww=79 は何を表していますか？",
+    "answer": "凍雨。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww80",
+    "image": "data/weather/ww_symbols_enhanced/w8_ww0.png",
+    "question": "記号 ww=80 は何を表していますか？",
+    "answer": "しゅう雨、弱。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww81",
+    "image": "data/weather/ww_symbols_enhanced/w8_ww1.png",
+    "question": "記号 ww=81 は何を表していますか？",
+    "answer": "しゅう雨、並または強。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww82",
+    "image": "data/weather/ww_symbols_enhanced/w8_ww2.png",
+    "question": "記号 ww=82 は何を表していますか？",
+    "answer": "しゅう雨、激しい。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww83",
+    "image": "data/weather/ww_symbols_enhanced/w8_ww3.png",
+    "question": "記号 ww=83 は何を表していますか？",
+    "answer": "しゅう雨性のみぞれ、弱。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww84",
+    "image": "data/weather/ww_symbols_enhanced/w8_ww4.png",
+    "question": "記号 ww=84 は何を表していますか？",
+    "answer": "しゅう雨性のみぞれ、並または強。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww85",
+    "image": "data/weather/ww_symbols_enhanced/w8_ww5.png",
+    "question": "記号 ww=85 は何を表していますか？",
+    "answer": "しゅう雪、弱。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww86",
+    "image": "data/weather/ww_symbols_enhanced/w8_ww6.png",
+    "question": "記号 ww=86 は何を表していますか？",
+    "answer": "しゅう雪、並または強。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww87",
+    "image": "data/weather/ww_symbols_enhanced/w8_ww7.png",
+    "question": "記号 ww=87 は何を表していますか？",
+    "answer": "雪あられまたは氷あられ、弱。雨またはみぞれを伴ってもよい。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww88",
+    "image": "data/weather/ww_symbols_enhanced/w8_ww8.png",
+    "question": "記号 ww=88 は何を表していますか？",
+    "answer": "雪あられまたは氷あられ、並または強。雨またはみぞれを伴ってもよい。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww89",
+    "image": "data/weather/ww_symbols_enhanced/w8_ww9.png",
+    "question": "記号 ww=89 は何を表していますか？",
+    "answer": "ひょう、弱。雨またはみぞれを伴ってもよい。雷鳴はない。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww90",
+    "image": "data/weather/ww_symbols_enhanced/w9_ww0.png",
+    "question": "記号 ww=90 は何を表していますか？",
+    "answer": "ひょう、並または強。雨またはみぞれを伴ってもよい。雷鳴はない。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww91",
+    "image": "data/weather/ww_symbols_enhanced/w9_ww1.png",
+    "question": "記号 ww=91 は何を表していますか？",
+    "answer": "観測時に雨（弱）、前1時間に雷電があったが観測時にはない。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww92",
+    "image": "data/weather/ww_symbols_enhanced/w9_ww2.png",
+    "question": "記号 ww=92 は何を表していますか？",
+    "answer": "観測時に雨（並または強）、前1時間に雷電あり・観測時なし。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww93",
+    "image": "data/weather/ww_symbols_enhanced/w9_ww3.png",
+    "question": "記号 ww=93 は何を表していますか？",
+    "answer": "観測時に雪/みぞれ/雪あられ/氷あられ/ひょう（弱）、前1時間に雷電あり・観測時なし。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww94",
+    "image": "data/weather/ww_symbols_enhanced/w9_ww4.png",
+    "question": "記号 ww=94 は何を表していますか？",
+    "answer": "観測時に雪/みぞれ/雪あられ/氷あられ/ひょう（並または強）、前1時間に雷電あり・観測時なし。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww95",
+    "image": "data/weather/ww_symbols_enhanced/w9_ww5.png",
+    "question": "記号 ww=95 は何を表していますか？",
+    "answer": "雷電、弱または並。観測時にひょう・氷あられ・雪あられは伴わないが雨/雪/みぞれを伴う。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww96",
+    "image": "data/weather/ww_symbols_enhanced/w9_ww6.png",
+    "question": "記号 ww=96 は何を表していますか？",
+    "answer": "雷電、弱または並。観測時にひょう/氷あられ/雪あられを伴う。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww97",
+    "image": "data/weather/ww_symbols_enhanced/w9_ww7.png",
+    "question": "記号 ww=97 は何を表していますか？",
+    "answer": "雷電、強。観測時にひょう・氷あられ・雪あられは伴わないが雨/雪/みぞれを伴う。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww98",
+    "image": "data/weather/ww_symbols_enhanced/w9_ww8.png",
+    "question": "記号 ww=98 は何を表していますか？",
+    "answer": "雷電、観測時に砂じんあらしを伴う。"
+  },
+  {
+    "type": "short_answer",
+    "code": "ww99",
+    "image": "data/weather/ww_symbols_enhanced/w9_ww9.png",
+    "question": "記号 ww=99 は何を表していますか？",
+    "answer": "雷電、強。観測時にひょう・氷あられ・雪あられを伴う。"
+  }
+]
