@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "type": "text",
+    "image": "data/weather/weather_icon/image_(1-2).png",
+    "question": "次の天気記号の名称を答えよ（漢字またはひらがな）。",
+    "answer": ["快晴", "かいせい"],
+    "explanation": "1: 雲量が1以下の状態。"
+  },
+  {
+    "id": 2,
+    "type": "text",
+    "image": "data/weather/weather_icon/image_(2-2).png",
+    "question": "次の天気記号の名称を答えよ。",
+    "answer": ["晴", "晴れ", "はれ"],
+    "explanation": "2: 雲量が2以上8以下の状態。"
+  },
+  {
+    "id": 3,
+    "type": "text",
+    "image": "data/weather/weather_icon/image_(3-2).png",
+    "question": "次の天気記号の名称を答えよ。",
+    "answer": ["薄曇", "薄ぐもり", "うすぐもり"],
+    "explanation": "3: 雲量が9以上で、巻雲・巻積雲・巻層雲が見かけ上最も多い状態。"
+  },
+  {
+    "id": 4,
+    "type": "text",
+    "image": "data/weather/weather_icon/image_(4-2).png",
+    "question": "次の天気記号の名称を答えよ。",
+    "answer": ["曇", "くもり"],
+    "explanation": "4: 雲量が9以上で、高積雲・高層雲・乱層雲・層積雲・層雲・積雲・積乱雲が見かけ上最も多い状態。"
+  },
+  {
+    "id": 5,
+    "type": "text",
+    "image": "data/weather/weather_icon/image_(5-2).png",
+    "question": "次の天気記号の名称を答えよ。",
+    "answer": ["煙霧", "えんむ"],
+    "explanation": "5: 煙霧・ちり煙霧・黄砂・煙・降灰があり、視程が1km未満、または視程1km以上で全天がおおわれている状態。"
+  },
+  {
+    "id": 6,
+    "type": "text",
+    "image": "data/weather/weather_icon/image_(6-2).png",
+    "question": "次の天気記号の名称を答えよ。",
+    "answer": ["砂じんあらし", "砂塵嵐", "さじんあらし"],
+    "explanation": "6: 砂じんあらしがあり、そのため視程が1km未満になっている状態。"
+  },
+  {
+    "id": 7,
+    "type": "text",
+    "image": "data/weather/weather_icon/image_(7-2).png",
+    "question": "次の天気記号の名称を答えよ。",
+    "answer": ["地ふぶき", "地吹雪", "じふぶき", "じぶき"],
+    "explanation": "7: 高い地ふぶきがあり、そのため視程が1km未満になっている状態。"
+  },
+  {
+    "id": 8,
+    "type": "text",
+    "image": "data/weather/weather_icon/image_(8-2).png",
+    "question": "次の天気記号の名称を答えよ。",
+    "answer": ["霧", "きり", "氷霧"],
+    "explanation": "8: 霧または氷霧があり、そのため視程が1km未満になっている状態。"
+  },
+  {
+    "id": 9,
+    "type": "text",
+    "image": "data/weather/weather_icon/image_(9-2).png",
+    "question": "次の天気記号の名称を答えよ。",
+    "answer": ["霧雨", "きりさめ"],
+    "explanation": "9: 霧雨が降っている状態。"
+  },
+  {
+    "id": 10,
+    "type": "text",
+    "image": "data/weather/weather_icon/image_(10-2).png",
+    "question": "次の天気記号の名称を答えよ。",
+    "answer": ["雨", "あめ"],
+    "explanation": "10: 雨が降っている状態。"
+  },
+  {
+    "id": 11,
+    "type": "text",
+    "image": "data/weather/weather_icon/image_(11-2).png",
+    "question": "次の天気記号の名称を答えよ。",
+    "answer": ["みぞれ", "霙"],
+    "explanation": "11: みぞれが降っている状態。"
+  },
+  {
+    "id": 12,
+    "type": "text",
+    "image": "data/weather/weather_icon/image_(12-2).png",
+    "question": "次の天気記号の名称を答えよ。",
+    "answer": ["雪", "ゆき"],
+    "explanation": "12: 雪・霧雪または細氷が降っている状態。"
+  },
+  {
+    "id": 13,
+    "type": "text",
+    "image": "data/weather/weather_icon/image_(13-2).png",
+    "question": "次の天気記号の名称を答えよ。",
+    "answer": ["あられ", "霰", "雪あられ", "氷あられ"],
+    "explanation": "13: 雪あられ・氷あられまたは凍雨が降っている状態。"
+  },
+  {
+    "id": 14,
+    "type": "text",
+    "image": "data/weather/weather_icon/image_(14-2).png",
+    "question": "次の天気記号の名称を答えよ。",
+    "answer": ["ひょう", "雹"],
+    "explanation": "14: ひょうが降っている状態。"
+  },
+  {
+    "id": 15,
+    "type": "text",
+    "image": "data/weather/weather_icon/image_(15-2).png",
+    "question": "次の天気記号の名称を答えよ。",
+    "answer": ["雷", "かみなり", "雷電"],
+    "explanation": "15: 雷電または雷鳴がある状態。"
+  }
+]
