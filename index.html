@@ -1,20 +1,26 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>航空クイズ</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>クイズ</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- セクション選択画面を中央に寄せるラッパー -->
-  <div class="section-wrapper">
+  <!-- 1) モード選択 -->
+  <div class="section-wrapper" id="mode-wrapper">
+    <div id="mode-container"></div>
+  </div>
+
+  <!-- 2) セクション選択 -->
+  <div class="section-wrapper" id="section-wrapper" style="display:none;">
     <div id="section-container"></div>
   </div>
 
-  <!-- クイズ画面（固定配置＆内部スクロール対応） -->
+  <!-- 3) クイズ画面 -->
   <div id="quiz-container" style="display:none;"></div>
 
   <script src="quiz.js"></script>
 </body>
 </html>
+

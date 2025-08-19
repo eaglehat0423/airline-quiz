@@ -1,0 +1,9 @@
+[
+  { "id": 1,"name": "フォネティックコード(IATA編)","file": "data/aviation/questions/section1.json" },
+  { "id": 2,"name": "空港コード(3レター)/日本","file": "data/aviation/questions/section2.json" },
+  { "id": 3,"name": "空港コード(3レター)/東南アジア","file": "data/aviation/questions/section3.json" },
+  { "id": 4,"name": "空港コード(3レター)/ヨーロッパ","file": "data/aviation/questions/section4.json" },
+  { "id": 5,"name": "空港コード(3レター)/北米","file": "data/aviation/questions/section5.json" },
+  { "id": 6,"name": "空港コード(3レター)/中東・オセアニア","file": "data/aviation/questions/section6.json" },
+  { "id": 7,"name": "航空業界略語","file": "data/aviation/questions/section7.json" }
+]
