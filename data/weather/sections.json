@@ -1,5 +1,7 @@
 [
   { "id": 1,"name": "現在天気記号","file": "data/weather/questions/section1.json" },
   { "id": 2,"name": "現在天気記号(重要)","file": "data/weather/questions/section2.json" },
-  { "id": 3,"name": "天気記号","file": "data/weather/questions/section3.json" }
+  { "id": 3,"name": "天気記号","file": "data/weather/questions/section3.json" },
+  { "id": 4,"name": "過去天気記号","file": "data/weather/questions/section4.json" },
+  { "id": 5,"name": "雲形記号","file": "data/weather/questions/section5.json" }
 ]

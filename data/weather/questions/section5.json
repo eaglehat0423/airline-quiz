@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CH-0.png",
+    "answer": "巻雲、巻積雲、巻層雲のいずれも存在しない",
+    "explanation": "巻雲（Ci）、巻積雲（Cc）、巻層雲（Cs）"
+  },
+  {
+    "id": 2,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CH-1.png",
+    "answer": "毛状またはかぎ状巻雲、空に広がる傾向はない",
+    "explanation": "巻雲（Ci）、巻積雲（Cc）、巻層雲（Cs）"
+  },
+  {
+    "id": 3,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CH-2.png",
+    "answer": "濃密な巻雲または塔状や房状の巻雲、空に広がる傾向はない",
+    "explanation": "巻雲（Ci）、巻積雲（Cc）、巻層雲（Cs）"
+  },
+  {
+    "id": 4,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CH-3.png",
+    "answer": "積乱雲からできた濃密な巻雲",
+    "explanation": "巻雲（Ci）、巻積雲（Cc）、巻層雲（Cs）"
+  },
+  {
+    "id": 5,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CH-4.png",
+    "answer": "かぎ状または毛状巻雲、またはその共存 次第に空に広がり厚くなる",
+    "explanation": "巻雲（Ci）、巻積雲（Cc）、巻層雲（Cs）"
+  },
+  {
+    "id": 6,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CH-5.png",
+    "answer": "巻雲と巻層雲、または巻層雲のみ、次第に空に広がり厚くなる 連続した層は地平線上45度未満",
+    "explanation": "巻雲（Ci）、巻積雲（Cc）、巻層雲（Cs）"
+  },
+  {
+    "id": 7,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CH-6.png",
+    "answer": "巻雲と巻層雲、または巻層雲のみ、次第に空に広がり厚くなる 連続した層は地平線上45度以上だが、全天は覆っていない",
+    "explanation": "巻雲（Ci）、巻積雲（Cc）、巻層雲（Cs）"
+  },
+  {
+    "id": 8,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CH-7.png",
+    "answer": "巻層雲、全天を覆う",
+    "explanation": "巻雲（Ci）、巻積雲（Cc）、巻層雲（Cs）"
+  },
+  {
+    "id": 9,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CH-8.png",
+    "answer": "巻層雲は全天を覆っていない 広がる傾向もない",
+    "explanation": "巻雲（Ci）、巻積雲（Cc）、巻層雲（Cs）"
+  },
+  {
+    "id": 10,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CH-9.png",
+    "answer": "巻積雲または巻雲、巻層雲。そのうち巻積雲が卓越している",
+    "explanation": "巻雲（Ci）、巻積雲（Cc）、巻層雲（Cs）"
+  },
+  {
+    "id": 11,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CM-0.png",
+    "answer": "高積雲、高層雲、乱層雲のいずれも存在しない",
+    "explanation": "高積雲（Ac）、高層雲（As）、乱層雲（Ns）"
+  },
+  {
+    "id": 12,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CM-1.png",
+    "answer": "半分以上が半透明な高層雲。太陽や月はかすかに見える",
+    "explanation": "高積雲（Ac）、高層雲（As）、乱層雲（Ns）"
+  },
+  {
+    "id": 13,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CM-2.png",
+    "answer": "不透明高層雲（半分以上が不透明）または乱層雲",
+    "explanation": "高積雲（Ac）、高層雲（As）、乱層雲（Ns）"
+  },
+  {
+    "id": 14,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CM-3.png",
+    "answer": "半透明高積雲。１層で全天は覆っていない",
+    "explanation": "高積雲（Ac）、高層雲（As）、乱層雲（Ns）"
+  },
+  {
+    "id": 15,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CM-4.png",
+    "answer": "半透明高積雲。1層または2層以上。全天は覆っていない ふつうレンズ状だが形は絶えず変化",
+    "explanation": "高積雲（Ac）、高層雲（As）、乱層雲（Ns）"
+  },
+  {
+    "id": 16,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CM-5.png",
+    "answer": "帯状の半透明高積雲、または1層以上の連続的な高積雲 次第に空に広がり厚くなる",
+    "explanation": "高積雲（Ac）、高層雲（As）、乱層雲（Ns）"
+  },
+  {
+    "id": 17,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CM-6.png",
+    "answer": "積雲または積乱雲が広がってできた高積雲",
+    "explanation": "高積雲（Ac）、高層雲（As）、乱層雲（Ns）"
+  },
+  {
+    "id": 18,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CM-7.png",
+    "answer": "不透明高積雲、または広がらない2層以上の半透明高積雲 または高層雲か乱層雲を伴う半透明高積雲",
+    "explanation": "高積雲（Ac）、高層雲（As）、乱層雲（Ns）"
+  },
+  {
+    "id": 19,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CM-8.png",
+    "answer": "塔状または房状の高積雲",
+    "explanation": "高積雲（Ac）、高層雲（As）、乱層雲（Ns）"
+  },
+  {
+    "id": 20,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CM-9.png",
+    "answer": "混沌とした空の高積雲。ふつう、複数の層をなす",
+    "explanation": "高積雲（Ac）、高層雲（As）、乱層雲（Ns）"
+  },
+  {
+    "id": 21,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CL-0.png",
+    "answer": "層積雲、層雲、積雲、積乱雲のいずれも存在しない",
+    "explanation": "層積雲（Sc）、層雲（St）、積雲（Cu）、積乱雲（Cb）"
+  },
+  {
+    "id": 22,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CL-1.png",
+    "answer": "扁平積雲、悪天候時ではない断片積雲 またはそれらの共存",
+    "explanation": "層積雲（Sc）、層雲（St）、積雲（Cu）、積乱雲（Cb）"
+  },
+  {
+    "id": 23,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CL-2.png",
+    "answer": "中程度に発達した積雲または雄大積雲 他の積雲や層積雲があってもよい",
+    "explanation": "層積雲（Sc）、層雲（St）、積雲（Cu）、積乱雲（Cb）"
+  },
+  {
+    "id": 24,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CL-3.png",
+    "answer": "無毛積乱雲。頂部は巻雲状、かなとこ状になっていない 積雲、層積雲、層雲があってもよい",
+    "explanation": "層積雲（Sc）、層雲（St）、積雲（Cu）、積乱雲（Cb）"
+  },
+  {
+    "id": 25,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CL-4.png",
+    "answer": "積雲が広がってできた層積雲。積雲があってもよい",
+    "explanation": "層積雲（Sc）、層雲（St）、積雲（Cu）、積乱雲（Cb）"
+  },
+  {
+    "id": 26,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CL-5.png",
+    "answer": "積雲からの変化ではない層積雲",
+    "explanation": "層積雲（Sc）、層雲（St）、積雲（Cu）、積乱雲（Cb）"
+  },
+  {
+    "id": 27,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CL-6.png",
+    "answer": "霧状の層雲、または悪天候時以外の断片層雲",
+    "explanation": "層積雲（Sc）、層雲（St）、積雲（Cu）、積乱雲（Cb）"
+  },
+  {
+    "id": 28,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CL-7.png",
+    "answer": "悪天候時の断片層雲、または断片積雲",
+    "explanation": "層積雲（Sc）、層雲（St）、積雲（Cu）、積乱雲（Cb）"
+  },
+  {
+    "id": 29,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CL-8.png",
+    "answer": "積雲と層積雲の共存。層積雲は積雲からの変化ではない",
+    "explanation": "層積雲（Sc）、層雲（St）、積雲（Cu）、積乱雲（Cb）"
+  },
+  {
+    "id": 30,
+    "type": "text",
+    "question": "この雲形記号の定義を答えてください。",
+    "image": "data/weather/cloud_icon/CL-9.png",
+    "answer": "多毛積乱雲。頂部は巻雲状でかなとこ状のことも多い 無毛積乱雲、積雲、層積雲、層雲があってもよい",
+    "explanation": "層積雲（Sc）、層雲（St）、積雲（Cu）、積乱雲（Cb）"
+  }
+]
