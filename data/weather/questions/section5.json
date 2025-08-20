@@ -1,13 +1,5 @@
 [
   {
-    "id": 1,
-    "type": "text",
-    "question": "この雲形記号の定義を答えてください。",
-    "image": "data/weather/cloud_icon/CH-0.png",
-    "answer": "巻雲、巻積雲、巻層雲のいずれも存在しない",
-    "explanation": "巻雲（Ci）、巻積雲（Cc）、巻層雲（Cs）"
-  },
-  {
     "id": 2,
     "type": "text",
     "question": "この雲形記号の定義を答えてください。",
@@ -80,14 +72,6 @@
     "explanation": "巻雲（Ci）、巻積雲（Cc）、巻層雲（Cs）"
   },
   {
-    "id": 11,
-    "type": "text",
-    "question": "この雲形記号の定義を答えてください。",
-    "image": "data/weather/cloud_icon/CM-0.png",
-    "answer": "高積雲、高層雲、乱層雲のいずれも存在しない",
-    "explanation": "高積雲（Ac）、高層雲（As）、乱層雲（Ns）"
-  },
-  {
     "id": 12,
     "type": "text",
     "question": "この雲形記号の定義を答えてください。",
@@ -158,14 +142,6 @@
     "image": "data/weather/cloud_icon/CM-9.png",
     "answer": "混沌とした空の高積雲。ふつう、複数の層をなす",
     "explanation": "高積雲（Ac）、高層雲（As）、乱層雲（Ns）"
-  },
-  {
-    "id": 21,
-    "type": "text",
-    "question": "この雲形記号の定義を答えてください。",
-    "image": "data/weather/cloud_icon/CL-0.png",
-    "answer": "層積雲、層雲、積雲、積乱雲のいずれも存在しない",
-    "explanation": "層積雲（Sc）、層雲（St）、積雲（Cu）、積乱雲（Cb）"
   },
   {
     "id": 22,
