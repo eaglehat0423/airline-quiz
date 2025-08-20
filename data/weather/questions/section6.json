@@ -1,0 +1,633 @@
+
+[
+  {
+    "id": 1,
+    "type": "text",
+    "question": "コード 00 の視程距離(km)を答えよ。",
+    "answer": "<0.1",
+    "explanation": "00 は 0.1km より近い。"
+  },
+  {
+    "id": 2,
+    "type": "text",
+    "question": "コード 01 の視程距離(km)を答えよ。",
+    "answer": "0.1",
+    "explanation": "01 は観測値(km)/10 → 1/10 = 0.1km。"
+  },
+  {
+    "id": 3,
+    "type": "text",
+    "question": "コード 02 の視程距離(km)を答えよ。",
+    "answer": "0.2",
+    "explanation": "02 は観測値(km)/10 → 2/10 = 0.2km。"
+  },
+  {
+    "id": 4,
+    "type": "text",
+    "question": "コード 03 の視程距離(km)を答えよ。",
+    "answer": "0.3",
+    "explanation": "03 は観測値(km)/10 → 3/10 = 0.3km。"
+  },
+  {
+    "id": 5,
+    "type": "text",
+    "question": "コード 04 の視程距離(km)を答えよ。",
+    "answer": "0.4",
+    "explanation": "04 は観測値(km)/10 → 4/10 = 0.4km。"
+  },
+  {
+    "id": 6,
+    "type": "text",
+    "question": "コード 05 の視程距離(km)を答えよ。",
+    "answer": "0.5",
+    "explanation": "05 は観測値(km)/10 → 5/10 = 0.5km。"
+  },
+  {
+    "id": 7,
+    "type": "text",
+    "question": "コード 06 の視程距離(km)を答えよ。",
+    "answer": "0.6",
+    "explanation": "06 は観測値(km)/10 → 6/10 = 0.6km。"
+  },
+  {
+    "id": 8,
+    "type": "text",
+    "question": "コード 07 の視程距離(km)を答えよ。",
+    "answer": "0.7",
+    "explanation": "07 は観測値(km)/10 → 7/10 = 0.7km。"
+  },
+  {
+    "id": 9,
+    "type": "text",
+    "question": "コード 08 の視程距離(km)を答えよ。",
+    "answer": "0.8",
+    "explanation": "08 は観測値(km)/10 → 8/10 = 0.8km。"
+  },
+  {
+    "id": 10,
+    "type": "text",
+    "question": "コード 09 の視程距離(km)を答えよ。",
+    "answer": "0.9",
+    "explanation": "09 は観測値(km)/10 → 9/10 = 0.9km。"
+  },
+  {
+    "id": 11,
+    "type": "text",
+    "question": "コード 10 の視程距離(km)を答えよ。",
+    "answer": "1.0",
+    "explanation": "10 は観測値(km)/10 → 10/10 = 1.0km。"
+  },
+  {
+    "id": 12,
+    "type": "text",
+    "question": "コード 11 の視程距離(km)を答えよ。",
+    "answer": "1.1",
+    "explanation": "11 は観測値(km)/10 → 11/10 = 1.1km。"
+  },
+  {
+    "id": 13,
+    "type": "text",
+    "question": "コード 12 の視程距離(km)を答えよ。",
+    "answer": "1.2",
+    "explanation": "12 は観測値(km)/10 → 12/10 = 1.2km。"
+  },
+  {
+    "id": 14,
+    "type": "text",
+    "question": "コード 13 の視程距離(km)を答えよ。",
+    "answer": "1.3",
+    "explanation": "13 は観測値(km)/10 → 13/10 = 1.3km。"
+  },
+  {
+    "id": 15,
+    "type": "text",
+    "question": "コード 14 の視程距離(km)を答えよ。",
+    "answer": "1.4",
+    "explanation": "14 は観測値(km)/10 → 14/10 = 1.4km。"
+  },
+  {
+    "id": 16,
+    "type": "text",
+    "question": "コード 15 の視程距離(km)を答えよ。",
+    "answer": "1.5",
+    "explanation": "15 は観測値(km)/10 → 15/10 = 1.5km。"
+  },
+  {
+    "id": 17,
+    "type": "text",
+    "question": "コード 16 の視程距離(km)を答えよ。",
+    "answer": "1.6",
+    "explanation": "16 は観測値(km)/10 → 16/10 = 1.6km。"
+  },
+  {
+    "id": 18,
+    "type": "text",
+    "question": "コード 17 の視程距離(km)を答えよ。",
+    "answer": "1.7",
+    "explanation": "17 は観測値(km)/10 → 17/10 = 1.7km。"
+  },
+  {
+    "id": 19,
+    "type": "text",
+    "question": "コード 18 の視程距離(km)を答えよ。",
+    "answer": "1.8",
+    "explanation": "18 は観測値(km)/10 → 18/10 = 1.8km。"
+  },
+  {
+    "id": 20,
+    "type": "text",
+    "question": "コード 19 の視程距離(km)を答えよ。",
+    "answer": "1.9",
+    "explanation": "19 は観測値(km)/10 → 19/10 = 1.9km。"
+  },
+  {
+    "id": 21,
+    "type": "text",
+    "question": "コード 20 の視程距離(km)を答えよ。",
+    "answer": "2.0",
+    "explanation": "20 は観測値(km)/10 → 20/10 = 2.0km。"
+  },
+  {
+    "id": 22,
+    "type": "text",
+    "question": "コード 21 の視程距離(km)を答えよ。",
+    "answer": "2.1",
+    "explanation": "21 は観測値(km)/10 → 21/10 = 2.1km。"
+  },
+  {
+    "id": 23,
+    "type": "text",
+    "question": "コード 22 の視程距離(km)を答えよ。",
+    "answer": "2.2",
+    "explanation": "22 は観測値(km)/10 → 22/10 = 2.2km。"
+  },
+  {
+    "id": 24,
+    "type": "text",
+    "question": "コード 23 の視程距離(km)を答えよ。",
+    "answer": "2.3",
+    "explanation": "23 は観測値(km)/10 → 23/10 = 2.3km。"
+  },
+  {
+    "id": 25,
+    "type": "text",
+    "question": "コード 24 の視程距離(km)を答えよ。",
+    "answer": "2.4",
+    "explanation": "24 は観測値(km)/10 → 24/10 = 2.4km。"
+  },
+  {
+    "id": 26,
+    "type": "text",
+    "question": "コード 25 の視程距離(km)を答えよ。",
+    "answer": "2.5",
+    "explanation": "25 は観測値(km)/10 → 25/10 = 2.5km。"
+  },
+  {
+    "id": 27,
+    "type": "text",
+    "question": "コード 26 の視程距離(km)を答えよ。",
+    "answer": "2.6",
+    "explanation": "26 は観測値(km)/10 → 26/10 = 2.6km。"
+  },
+  {
+    "id": 28,
+    "type": "text",
+    "question": "コード 27 の視程距離(km)を答えよ。",
+    "answer": "2.7",
+    "explanation": "27 は観測値(km)/10 → 27/10 = 2.7km。"
+  },
+  {
+    "id": 29,
+    "type": "text",
+    "question": "コード 28 の視程距離(km)を答えよ。",
+    "answer": "2.8",
+    "explanation": "28 は観測値(km)/10 → 28/10 = 2.8km。"
+  },
+  {
+    "id": 30,
+    "type": "text",
+    "question": "コード 29 の視程距離(km)を答えよ。",
+    "answer": "2.9",
+    "explanation": "29 は観測値(km)/10 → 29/10 = 2.9km。"
+  },
+  {
+    "id": 31,
+    "type": "text",
+    "question": "コード 30 の視程距離(km)を答えよ。",
+    "answer": "3.0",
+    "explanation": "30 は観測値(km)/10 → 30/10 = 3.0km。"
+  },
+  {
+    "id": 32,
+    "type": "text",
+    "question": "コード 31 の視程距離(km)を答えよ。",
+    "answer": "3.1",
+    "explanation": "31 は観測値(km)/10 → 31/10 = 3.1km。"
+  },
+  {
+    "id": 33,
+    "type": "text",
+    "question": "コード 32 の視程距離(km)を答えよ。",
+    "answer": "3.2",
+    "explanation": "32 は観測値(km)/10 → 32/10 = 3.2km。"
+  },
+  {
+    "id": 34,
+    "type": "text",
+    "question": "コード 33 の視程距離(km)を答えよ。",
+    "answer": "3.3",
+    "explanation": "33 は観測値(km)/10 → 33/10 = 3.3km。"
+  },
+  {
+    "id": 35,
+    "type": "text",
+    "question": "コード 34 の視程距離(km)を答えよ。",
+    "answer": "3.4",
+    "explanation": "34 は観測値(km)/10 → 34/10 = 3.4km。"
+  },
+  {
+    "id": 36,
+    "type": "text",
+    "question": "コード 35 の視程距離(km)を答えよ。",
+    "answer": "3.5",
+    "explanation": "35 は観測値(km)/10 → 35/10 = 3.5km。"
+  },
+  {
+    "id": 37,
+    "type": "text",
+    "question": "コード 36 の視程距離(km)を答えよ。",
+    "answer": "3.6",
+    "explanation": "36 は観測値(km)/10 → 36/10 = 3.6km。"
+  },
+  {
+    "id": 38,
+    "type": "text",
+    "question": "コード 37 の視程距離(km)を答えよ。",
+    "answer": "3.7",
+    "explanation": "37 は観測値(km)/10 → 37/10 = 3.7km。"
+  },
+  {
+    "id": 39,
+    "type": "text",
+    "question": "コード 38 の視程距離(km)を答えよ。",
+    "answer": "3.8",
+    "explanation": "38 は観測値(km)/10 → 38/10 = 3.8km。"
+  },
+  {
+    "id": 40,
+    "type": "text",
+    "question": "コード 39 の視程距離(km)を答えよ。",
+    "answer": "3.9",
+    "explanation": "39 は観測値(km)/10 → 39/10 = 3.9km。"
+  },
+  {
+    "id": 41,
+    "type": "text",
+    "question": "コード 40 の視程距離(km)を答えよ。",
+    "answer": "4.0",
+    "explanation": "40 は観測値(km)/10 → 40/10 = 4.0km。"
+  },
+  {
+    "id": 42,
+    "type": "text",
+    "question": "コード 41 の視程距離(km)を答えよ。",
+    "answer": "4.1",
+    "explanation": "41 は観測値(km)/10 → 41/10 = 4.1km。"
+  },
+  {
+    "id": 43,
+    "type": "text",
+    "question": "コード 42 の視程距離(km)を答えよ。",
+    "answer": "4.2",
+    "explanation": "42 は観測値(km)/10 → 42/10 = 4.2km。"
+  },
+  {
+    "id": 44,
+    "type": "text",
+    "question": "コード 43 の視程距離(km)を答えよ。",
+    "answer": "4.3",
+    "explanation": "43 は観測値(km)/10 → 43/10 = 4.3km。"
+  },
+  {
+    "id": 45,
+    "type": "text",
+    "question": "コード 44 の視程距離(km)を答えよ。",
+    "answer": "4.4",
+    "explanation": "44 は観測値(km)/10 → 44/10 = 4.4km。"
+  },
+  {
+    "id": 46,
+    "type": "text",
+    "question": "コード 45 の視程距離(km)を答えよ。",
+    "answer": "4.5",
+    "explanation": "45 は観測値(km)/10 → 45/10 = 4.5km。"
+  },
+  {
+    "id": 47,
+    "type": "text",
+    "question": "コード 46 の視程距離(km)を答えよ。",
+    "answer": "4.6",
+    "explanation": "46 は観測値(km)/10 → 46/10 = 4.6km。"
+  },
+  {
+    "id": 48,
+    "type": "text",
+    "question": "コード 47 の視程距離(km)を答えよ。",
+    "answer": "4.7",
+    "explanation": "47 は観測値(km)/10 → 47/10 = 4.7km。"
+  },
+  {
+    "id": 49,
+    "type": "text",
+    "question": "コード 48 の視程距離(km)を答えよ。",
+    "answer": "4.8",
+    "explanation": "48 は観測値(km)/10 → 48/10 = 4.8km。"
+  },
+  {
+    "id": 50,
+    "type": "text",
+    "question": "コード 49 の視程距離(km)を答えよ。",
+    "answer": "4.9",
+    "explanation": "49 は観測値(km)/10 → 49/10 = 4.9km。"
+  },
+  {
+    "id": 51,
+    "type": "text",
+    "question": "コード 50 の視程距離(km)を答えよ。",
+    "answer": "5.0",
+    "explanation": "50 は観測値(km)/10 → 50/10 = 5.0km。"
+  },
+  {
+    "id": 52,
+    "type": "text",
+    "question": "コード 51 の視程距離(km)を答えよ。",
+    "answer": "使用しない",
+    "explanation": "51 は使用しない。"
+  },
+  {
+    "id": 53,
+    "type": "text",
+    "question": "コード 52 の視程距離(km)を答えよ。",
+    "answer": "使用しない",
+    "explanation": "52 は使用しない。"
+  },
+  {
+    "id": 54,
+    "type": "text",
+    "question": "コード 53 の視程距離(km)を答えよ。",
+    "answer": "使用しない",
+    "explanation": "53 は使用しない。"
+  },
+  {
+    "id": 55,
+    "type": "text",
+    "question": "コード 54 の視程距離(km)を答えよ。",
+    "answer": "使用しない",
+    "explanation": "54 は使用しない。"
+  },
+  {
+    "id": 56,
+    "type": "text",
+    "question": "コード 55 の視程距離(km)を答えよ。",
+    "answer": "使用しない",
+    "explanation": "55 は使用しない。"
+  },
+  {
+    "id": 57,
+    "type": "text",
+    "question": "コード 56 の視程距離(km)を答えよ。",
+    "answer": "6",
+    "explanation": "56 は観測値(km)-50 → 56-50 = 6km。"
+  },
+  {
+    "id": 58,
+    "type": "text",
+    "question": "コード 57 の視程距離(km)を答えよ。",
+    "answer": "7",
+    "explanation": "57 は観測値(km)-50 → 57-50 = 7km。"
+  },
+  {
+    "id": 59,
+    "type": "text",
+    "question": "コード 58 の視程距離(km)を答えよ。",
+    "answer": "8",
+    "explanation": "58 は観測値(km)-50 → 58-50 = 8km。"
+  },
+  {
+    "id": 60,
+    "type": "text",
+    "question": "コード 59 の視程距離(km)を答えよ。",
+    "answer": "9",
+    "explanation": "59 は観測値(km)-50 → 59-50 = 9km。"
+  },
+  {
+    "id": 61,
+    "type": "text",
+    "question": "コード 60 の視程距離(km)を答えよ。",
+    "answer": "10",
+    "explanation": "60 は観測値(km)-50 → 60-50 = 10km。"
+  },
+  {
+    "id": 62,
+    "type": "text",
+    "question": "コード 61 の視程距離(km)を答えよ。",
+    "answer": "11",
+    "explanation": "61 は観測値(km)-50 → 61-50 = 11km。"
+  },
+  {
+    "id": 63,
+    "type": "text",
+    "question": "コード 62 の視程距離(km)を答えよ。",
+    "answer": "12",
+    "explanation": "62 は観測値(km)-50 → 62-50 = 12km。"
+  },
+  {
+    "id": 64,
+    "type": "text",
+    "question": "コード 63 の視程距離(km)を答えよ。",
+    "answer": "13",
+    "explanation": "63 は観測値(km)-50 → 63-50 = 13km。"
+  },
+  {
+    "id": 65,
+    "type": "text",
+    "question": "コード 64 の視程距離(km)を答えよ。",
+    "answer": "14",
+    "explanation": "64 は観測値(km)-50 → 64-50 = 14km。"
+  },
+  {
+    "id": 66,
+    "type": "text",
+    "question": "コード 65 の視程距離(km)を答えよ。",
+    "answer": "15",
+    "explanation": "65 は観測値(km)-50 → 65-50 = 15km。"
+  },
+  {
+    "id": 67,
+    "type": "text",
+    "question": "コード 66 の視程距離(km)を答えよ。",
+    "answer": "16",
+    "explanation": "66 は観測値(km)-50 → 66-50 = 16km。"
+  },
+  {
+    "id": 68,
+    "type": "text",
+    "question": "コード 67 の視程距離(km)を答えよ。",
+    "answer": "17",
+    "explanation": "67 は観測値(km)-50 → 67-50 = 17km。"
+  },
+  {
+    "id": 69,
+    "type": "text",
+    "question": "コード 68 の視程距離(km)を答えよ。",
+    "answer": "18",
+    "explanation": "68 は観測値(km)-50 → 68-50 = 18km。"
+  },
+  {
+    "id": 70,
+    "type": "text",
+    "question": "コード 69 の視程距離(km)を答えよ。",
+    "answer": "19",
+    "explanation": "69 は観測値(km)-50 → 69-50 = 19km。"
+  },
+  {
+    "id": 71,
+    "type": "text",
+    "question": "コード 70 の視程距離(km)を答えよ。",
+    "answer": "20",
+    "explanation": "70 は観測値(km)-50 → 70-50 = 20km。"
+  },
+  {
+    "id": 72,
+    "type": "text",
+    "question": "コード 71 の視程距離(km)を答えよ。",
+    "answer": "21",
+    "explanation": "71 は観測値(km)-50 → 71-50 = 21km。"
+  },
+  {
+    "id": 73,
+    "type": "text",
+    "question": "コード 72 の視程距離(km)を答えよ。",
+    "answer": "22",
+    "explanation": "72 は観測値(km)-50 → 72-50 = 22km。"
+  },
+  {
+    "id": 74,
+    "type": "text",
+    "question": "コード 73 の視程距離(km)を答えよ。",
+    "answer": "23",
+    "explanation": "73 は観測値(km)-50 → 73-50 = 23km。"
+  },
+  {
+    "id": 75,
+    "type": "text",
+    "question": "コード 74 の視程距離(km)を答えよ。",
+    "answer": "24",
+    "explanation": "74 は観測値(km)-50 → 74-50 = 24km。"
+  },
+  {
+    "id": 76,
+    "type": "text",
+    "question": "コード 75 の視程距離(km)を答えよ。",
+    "answer": "25",
+    "explanation": "75 は観測値(km)-50 → 75-50 = 25km。"
+  },
+  {
+    "id": 77,
+    "type": "text",
+    "question": "コード 76 の視程距離(km)を答えよ。",
+    "answer": "26",
+    "explanation": "76 は観測値(km)-50 → 76-50 = 26km。"
+  },
+  {
+    "id": 78,
+    "type": "text",
+    "question": "コード 77 の視程距離(km)を答えよ。",
+    "answer": "27",
+    "explanation": "77 は観測値(km)-50 → 77-50 = 27km。"
+  },
+  {
+    "id": 79,
+    "type": "text",
+    "question": "コード 78 の視程距離(km)を答えよ。",
+    "answer": "28",
+    "explanation": "78 は観測値(km)-50 → 78-50 = 28km。"
+  },
+  {
+    "id": 80,
+    "type": "text",
+    "question": "コード 79 の視程距離(km)を答えよ。",
+    "answer": "29",
+    "explanation": "79 は観測値(km)-50 → 79-50 = 29km。"
+  },
+  {
+    "id": 81,
+    "type": "text",
+    "question": "コード 80 の視程距離(km)を答えよ。",
+    "answer": "30",
+    "explanation": "80 は観測値(km)-50 → 80-50 = 30km。"
+  },
+  {
+    "id": 82,
+    "type": "text",
+    "question": "コード 81 の視程距離(km)を答えよ。",
+    "answer": "35",
+    "explanation": "81 は (観測値-80)*5+30 → (81-80)*5+30 = 35km。"
+  },
+  {
+    "id": 83,
+    "type": "text",
+    "question": "コード 82 の視程距離(km)を答えよ。",
+    "answer": "40",
+    "explanation": "82 は (観測値-80)*5+30 → (82-80)*5+30 = 40km。"
+  },
+  {
+    "id": 84,
+    "type": "text",
+    "question": "コード 83 の視程距離(km)を答えよ。",
+    "answer": "45",
+    "explanation": "83 は (観測値-80)*5+30 → (83-80)*5+30 = 45km。"
+  },
+  {
+    "id": 85,
+    "type": "text",
+    "question": "コード 84 の視程距離(km)を答えよ。",
+    "answer": "50",
+    "explanation": "84 は (観測値-80)*5+30 → (84-80)*5+30 = 50km。"
+  },
+  {
+    "id": 86,
+    "type": "text",
+    "question": "コード 85 の視程距離(km)を答えよ。",
+    "answer": "55",
+    "explanation": "85 は (観測値-80)*5+30 → (85-80)*5+30 = 55km。"
+  },
+  {
+    "id": 87,
+    "type": "text",
+    "question": "コード 86 の視程距離(km)を答えよ。",
+    "answer": "60",
+    "explanation": "86 は (観測値-80)*5+30 → (86-80)*5+30 = 60km。"
+  },
+  {
+    "id": 88,
+    "type": "text",
+    "question": "コード 87 の視程距離(km)を答えよ。",
+    "answer": "65",
+    "explanation": "87 は (観測値-80)*5+30 → (87-80)*5+30 = 65km。"
+  },
+  {
+    "id": 89,
+    "type": "text",
+    "question": "コード 88 の視程距離(km)を答えよ。",
+    "answer": "70",
+    "explanation": "88 は (観測値-80)*5+30 → (88-80)*5+30 = 70km。"
+  },
+  {
+    "id": 90,
+    "type": "text",
+    "question": "コード 89 の視程距離(km)を答えよ。",
+    "answer": ">70",
+    "explanation": "89 は 70km より長い。"
+  }
+]
