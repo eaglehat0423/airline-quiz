@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "type": "text",
+    "question": "巻雲 の略称は何ですか？",
+    "answer": "Ci",
+    "explanation": "巻雲 (Ci)"
+  },
+  {
+    "id": 2,
+    "type": "text",
+    "question": "巻積雲 の略称は何ですか？",
+    "answer": "Cc",
+    "explanation": "巻積雲 (Cc)"
+  },
+  {
+    "id": 3,
+    "type": "text",
+    "question": "巻層雲 の略称は何ですか？",
+    "answer": "Cs",
+    "explanation": "巻層雲 (Cs)"
+  },
+  {
+    "id": 4,
+    "type": "text",
+    "question": "高積雲 の略称は何ですか？",
+    "answer": "Ac",
+    "explanation": "高積雲 (Ac)"
+  },
+  {
+    "id": 5,
+    "type": "text",
+    "question": "高層雲 の略称は何ですか？",
+    "answer": "As",
+    "explanation": "高層雲 (As)"
+  },
+  {
+    "id": 6,
+    "type": "text",
+    "question": "乱層雲 の略称は何ですか？",
+    "answer": "Ns",
+    "explanation": "乱層雲 (Ns)"
+  },
+  {
+    "id": 7,
+    "type": "text",
+    "question": "層積雲 の略称は何ですか？",
+    "answer": "Sc",
+    "explanation": "層積雲 (Sc)"
+  },
+  {
+    "id": 8,
+    "type": "text",
+    "question": "層雲 の略称は何ですか？",
+    "answer": "St",
+    "explanation": "層雲 (St)"
+  },
+  {
+    "id": 9,
+    "type": "text",
+    "question": "積雲 の略称は何ですか？",
+    "answer": "Cu",
+    "explanation": "積雲 (Cu)"
+  },
+  {
+    "id": 10,
+    "type": "text",
+    "question": "積乱雲 の略称は何ですか？",
+    "answer": "Cb",
+    "explanation": "積乱雲 (Cb)"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "type": "text",
+    "question": "略称 Ci は何の雲を表していますか？",
+    "answer": "巻雲",
+    "explanation": "巻雲 (Ci)"
+  },
+  {
+    "id": 2,
+    "type": "text",
+    "question": "略称 Cc は何の雲を表していますか？",
+    "answer": "巻積雲",
+    "explanation": "巻積雲 (Cc)"
+  },
+  {
+    "id": 3,
+    "type": "text",
+    "question": "略称 Cs は何の雲を表していますか？",
+    "answer": "巻層雲",
+    "explanation": "巻層雲 (Cs)"
+  },
+  {
+    "id": 4,
+    "type": "text",
+    "question": "略称 Ac は何の雲を表していますか？",
+    "answer": "高積雲",
+    "explanation": "高積雲 (Ac)"
+  },
+  {
+    "id": 5,
+    "type": "text",
+    "question": "略称 As は何の雲を表していますか？",
+    "answer": "高層雲",
+    "explanation": "高層雲 (As)"
+  },
+  {
+    "id": 6,
+    "type": "text",
+    "question": "略称 Ns は何の雲を表していますか？",
+    "answer": "乱層雲",
+    "explanation": "乱層雲 (Ns)"
+  },
+  {
+    "id": 7,
+    "type": "text",
+    "question": "略称 Sc は何の雲を表していますか？",
+    "answer": "層積雲",
+    "explanation": "層積雲 (Sc)"
+  },
+  {
+    "id": 8,
+    "type": "text",
+    "question": "略称 St は何の雲を表していますか？",
+    "answer": "層雲",
+    "explanation": "層雲 (St)"
+  },
+  {
+    "id": 9,
+    "type": "text",
+    "question": "略称 Cu は何の雲を表していますか？",
+    "answer": "積雲",
+    "explanation": "積雲 (Cu)"
+  },
+  {
+    "id": 10,
+    "type": "text",
+    "question": "略称 Cb は何の雲を表していますか？",
+    "answer": "積乱雲",
+    "explanation": "積乱雲 (Cb)"
+  }
+]
